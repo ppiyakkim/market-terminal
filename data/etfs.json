@@ -1,0 +1,420 @@
+{
+  "updated": "2026-04-06T00:20:24.755806Z",
+  "data": {
+    "Sector": {
+      "정보기술": {
+        "ticker": "XLK",
+        "name": "State Street Technology Select ",
+        "sector": "",
+        "marketCap": 36996898816,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.8,
+          "1w": 4.67,
+          "1mo": -0.98,
+          "3mo": -5.85,
+          "ytd": -5.64,
+          "1y": 40.11
+        }
+      },
+      "헬스케어": {
+        "ticker": "XLV",
+        "name": "State Street Health Care Select",
+        "sector": "",
+        "marketCap": 28982497280,
+        "currency": "USD",
+        "changes": {
+          "1d": -0.62,
+          "1w": 2.48,
+          "1mo": -5.95,
+          "3mo": -4.92,
+          "ytd": -5.21,
+          "1y": 4.4
+        }
+      },
+      "금융": {
+        "ticker": "XLF",
+        "name": "State Street Financial Select S",
+        "sector": "",
+        "marketCap": 43757027328,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.18,
+          "1w": 3.6,
+          "1mo": -2.78,
+          "3mo": -11.3,
+          "ytd": -9.37,
+          "1y": 5.46
+        }
+      },
+      "커뮤니케이션": {
+        "ticker": "XLC",
+        "name": "State Street Communication Serv",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.41,
+          "1w": 4.35,
+          "1mo": -5.0,
+          "3mo": -4.84,
+          "ytd": -4.14,
+          "1y": 22.21
+        }
+      },
+      "소비순환재": {
+        "ticker": "XLY",
+        "name": "State Street Consumer Discretio",
+        "sector": "",
+        "marketCap": 13005362176,
+        "currency": "USD",
+        "changes": {
+          "1d": -1.5,
+          "1w": 2.34,
+          "1mo": -5.24,
+          "3mo": -9.92,
+          "ytd": -8.43,
+          "1y": 14.12
+        }
+      },
+      "경기방어주": {
+        "ticker": "XLP",
+        "name": "State Street Consumer Staples S",
+        "sector": "",
+        "marketCap": 17210984448,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.53,
+          "1w": 0.13,
+          "1mo": -6.14,
+          "3mo": 6.47,
+          "ytd": 6.0,
+          "1y": 2.6
+        }
+      },
+      "산업재": {
+        "ticker": "XLI",
+        "name": "State Street Industrial Select ",
+        "sector": "",
+        "marketCap": 22375239680,
+        "currency": "USD",
+        "changes": {
+          "1d": -0.4,
+          "1w": 2.87,
+          "1mo": -6.39,
+          "3mo": 2.74,
+          "ytd": 3.96,
+          "1y": 31.88
+        }
+      },
+      "유틸리티": {
+        "ticker": "XLU",
+        "name": "State Street Utilities Select S",
+        "sector": "",
+        "marketCap": 7566117376,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.5,
+          "1w": 1.65,
+          "1mo": -0.86,
+          "3mo": 9.28,
+          "ytd": 8.07,
+          "1y": 20.78
+        }
+      },
+      "에너지": {
+        "ticker": "XLE",
+        "name": "State Street Energy Select Sect",
+        "sector": "",
+        "marketCap": 11045621760,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.47,
+          "1w": -5.29,
+          "1mo": 5.52,
+          "3mo": 27.19,
+          "ytd": 30.64,
+          "1y": 41.0
+        }
+      },
+      "리츠(섹터)": {
+        "ticker": "XLRE",
+        "name": "State Street Real Estate Select",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 1.61,
+          "1w": 4.0,
+          "1mo": -4.14,
+          "3mo": 3.61,
+          "ytd": 3.74,
+          "1y": 5.48
+        }
+      },
+      "소재": {
+        "ticker": "XLB",
+        "name": "State Street Materials Select S",
+        "sector": "",
+        "marketCap": 3625673472,
+        "currency": "USD",
+        "changes": {
+          "1d": -0.1,
+          "1w": 3.07,
+          "1mo": -2.51,
+          "3mo": 8.7,
+          "ytd": 9.79,
+          "1y": 23.73
+        }
+      }
+    },
+    "Value/Growth": {
+      "대형성장": {
+        "ticker": "VUG",
+        "name": "Vanguard Growth ETF",
+        "sector": "",
+        "marketCap": 107000881152,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.11,
+          "1w": 4.65,
+          "1mo": -3.66,
+          "3mo": -9.4,
+          "ytd": -8.98,
+          "1y": 24.85
+        }
+      },
+      "중형성장": {
+        "ticker": "IWP",
+        "name": "iShares Russell Midcap Growth E",
+        "sector": "",
+        "marketCap": 9876575232,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.31,
+          "1w": 3.4,
+          "1mo": -4.62,
+          "3mo": -7.47,
+          "ytd": -6.49,
+          "1y": 14.51
+        }
+      },
+      "대형가치": {
+        "ticker": "VTV",
+        "name": "Vanguard Value ETF",
+        "sector": "",
+        "marketCap": 83573211136,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.16,
+          "1w": 1.88,
+          "1mo": -3.03,
+          "3mo": 1.76,
+          "ytd": 2.73,
+          "1y": 20.6
+        }
+      },
+      "중형가치": {
+        "ticker": "VOE",
+        "name": "Vanguard Mid-Cap Value ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.31,
+          "1w": 1.79,
+          "1mo": -2.67,
+          "3mo": 2.94,
+          "ytd": 4.04,
+          "1y": 22.16
+        }
+      }
+    },
+    "Growth Themes": {
+      "반도체": {
+        "ticker": "SOXX",
+        "name": "iShares PHLX SOX Semiconductor ",
+        "sector": "",
+        "marketCap": 2598016512,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.32,
+          "1w": 4.99,
+          "1mo": 1.51,
+          "3mo": 6.84,
+          "ytd": 8.33,
+          "1y": 100.62
+        }
+      },
+      "클라우드": {
+        "ticker": "SKYY",
+        "name": "First Trust Cloud Computing ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 1.36,
+          "1w": 5.5,
+          "1mo": 1.78,
+          "3mo": -13.02,
+          "ytd": -12.48,
+          "1y": 15.53
+        }
+      },
+      "인공지능": {
+        "ticker": "AIQ",
+        "name": "Global X Artificial Intelligenc",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": -0.15,
+          "1w": 3.96,
+          "1mo": -3.16,
+          "3mo": -9.18,
+          "ytd": -8.09,
+          "1y": 35.99
+        }
+      },
+      "사이버보안": {
+        "ticker": "CIBR",
+        "name": "First Trust NASDAQ Cybersecurit",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 1.65,
+          "1w": 5.65,
+          "1mo": 0.61,
+          "3mo": -10.11,
+          "ytd": -9.02,
+          "1y": 5.36
+        }
+      }
+    },
+    "Dividend": {
+      "기술배당": {
+        "ticker": "VIG",
+        "name": "Vanguard Div Appreciation ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.16,
+          "1w": 2.51,
+          "1mo": -3.69,
+          "3mo": -2.28,
+          "ytd": -1.69,
+          "1y": 16.93
+        }
+      },
+      "배당성장": {
+        "ticker": "SCHD",
+        "name": "Schwab US Dividend Equity ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.16,
+          "1w": 0.39,
+          "1mo": -2.44,
+          "3mo": 10.42,
+          "ytd": 11.14,
+          "1y": 18.75
+        }
+      },
+      "리츠": {
+        "ticker": "VNQ",
+        "name": "Vanguard Real Estate ETF",
+        "sector": "",
+        "marketCap": 33401432064,
+        "currency": "USD",
+        "changes": {
+          "1d": 1.36,
+          "1w": 3.71,
+          "1mo": -4.43,
+          "3mo": 2.79,
+          "ytd": 3.02,
+          "1y": 6.59
+        }
+      },
+      "커버드콜": {
+        "ticker": "JEPQ",
+        "name": "JPMorgan Nasdaq Equity Premium ",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.13,
+          "1w": 3.74,
+          "1mo": NaN,
+          "3mo": -2.29,
+          "ytd": -1.7,
+          "1y": 25.83
+        }
+      }
+    },
+    "Innovation": {
+      "로봇": {
+        "ticker": "BOTZ",
+        "name": "Global X Robotics & Artificial ",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": -1.47,
+          "1w": 2.9,
+          "1mo": -9.49,
+          "3mo": -11.19,
+          "ytd": -9.02,
+          "1y": 23.45
+        }
+      },
+      "원전": {
+        "ticker": "URA",
+        "name": "Global X Uranium ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": -0.73,
+          "1w": 4.87,
+          "1mo": -5.96,
+          "3mo": 0.56,
+          "ytd": 6.17,
+          "1y": 128.11
+        }
+      },
+      "비트코인": {
+        "ticker": "IBIT",
+        "name": "iShares Bitcoin Trust ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": -1.73,
+          "1w": 1.52,
+          "1mo": -1.89,
+          "3mo": -28.97,
+          "ytd": -25.46,
+          "1y": -18.47
+        }
+      },
+      "혁신": {
+        "ticker": "ARKK",
+        "name": "ARK Innovation ETF",
+        "sector": "",
+        "marketCap": null,
+        "currency": "USD",
+        "changes": {
+          "1d": 0.23,
+          "1w": 6.08,
+          "1mo": -5.12,
+          "3mo": -15.71,
+          "ytd": -12.45,
+          "1y": 51.95
+        }
+      }
+    }
+  }
+}
