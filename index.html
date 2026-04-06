@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>MARKET TERMINAL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<style>
+/* ── RESET & BASE ─────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:       #0a0c0f;
+  --bg2:      #0f1215;
+  --bg3:      #141820;
+  --border:   #1e2530;
+  --border2:  #2a3545;
+  --text:     #c8d4e0;
+  --dim:      #4a5a6a;
+  --accent:   #00d4aa;
+  --accent2:  #0099ff;
+  --up:       #00c87a;
+  --dn:       #ff4060;
+  --up-dim:   rgba(0,200,122,0.15);
+  --dn-dim:   rgba(255,64,96,0.15);
+  --up-mid:   rgba(0,200,122,0.4);
+  --dn-mid:   rgba(255,64,96,0.4);
+  --glow:     0 0 12px rgba(0,212,170,0.3);
+  --font-mono:'JetBrains Mono',monospace;
+  --font-alt: 'Space Mono',monospace;
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--font-mono);font-size:13px;line-height:1.5;overflow-x:hidden}
+::selection{background:var(--accent);color:#000}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+
+/* ── LAYOUT ───────────────────────────────────── */
+#app{display:flex;flex-direction:column;min-height:100vh}
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 20px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg2);
+  position:sticky;top:0;z-index:100;
+}
+.logo{
+  font-family:var(--font-alt);font-size:15px;font-weight:700;
+  letter-spacing:0.15em;color:var(--accent);
+  text-shadow:var(--glow);
+}
+.logo span{color:var(--dim);font-weight:400}
+#clock{color:var(--dim);font-size:11px;letter-spacing:0.08em}
+#last-updated{color:var(--dim);font-size:10px;margin-left:16px}
+
+/* ── NAV TABS ─────────────────────────────────── */
+nav{
+  display:flex;gap:0;
+  border-bottom:1px solid var(--border);
+  background:var(--bg2);
+  padding:0 20px;
+  overflow-x:auto;
+}
+.tab{
+  padding:8px 18px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--dim);cursor:pointer;border-bottom:2px solid transparent;
+  white-space:nowrap;transition:color 0.15s,border-color 0.15s;
+  font-family:var(--font-alt);
+}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* ── PERIOD SELECTOR ──────────────────────────── */
+.period-bar{
+  display:flex;gap:4px;padding:8px 20px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg);
+}
+.prd{
+  padding:3px 10px;font-size:10px;letter-spacing:0.08em;
+  border:1px solid var(--border);border-radius:2px;
+  cursor:pointer;color:var(--dim);transition:all 0.1s;
+}
+.prd:hover{color:var(--text);border-color:var(--border2)}
+.prd.active{color:var(--accent);border-color:var(--accent);background:rgba(0,212,170,0.07)}
+
+/* ── MAIN CONTENT ─────────────────────────────── */
+main{flex:1;padding:16px 20px;display:flex;flex-direction:column;gap:16px}
+.panel{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:3px;overflow:hidden;
+}
+.panel-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:8px 14px;border-bottom:1px solid var(--border);
+  background:var(--bg3);
+}
+.panel-title{
+  font-family:var(--font-alt);font-size:10px;letter-spacing:0.15em;
+  text-transform:uppercase;color:var(--accent);
+}
+.panel-sub{font-size:10px;color:var(--dim)}
+.panel-body{padding:12px 14px}
+
+/* ── TREEMAP ──────────────────────────────────── */
+#treemap-container{width:100%;position:relative}
+#treemap-svg{width:100%;display:block}
+.treemap-cell{cursor:pointer;transition:opacity 0.1s}
+.treemap-cell:hover{opacity:0.85}
+.cell-label{pointer-events:none;font-family:var(--font-mono);fill:rgba(255,255,255,0.9)}
+.cell-ticker{font-weight:700}
+.cell-pct{font-weight:300}
+#treemap-breadcrumb{
+  font-size:11px;color:var(--dim);padding:6px 14px;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:6px;
+}
+.bc-item{cursor:pointer;color:var(--accent2)}
+.bc-item:hover{text-decoration:underline}
+.bc-sep{color:var(--border2)}
+
+/* Treemap filter row */
+.treemap-filters{
+  display:flex;gap:8px;padding:8px 14px;
+  border-bottom:1px solid var(--border);
+  flex-wrap:wrap;
+  background:var(--bg3);
+}
+.filter-btn{
+  padding:2px 8px;font-size:10px;border:1px solid var(--border);
+  border-radius:2px;cursor:pointer;color:var(--dim);
+  transition:all 0.1s;
+}
+.filter-btn:hover{color:var(--text);border-color:var(--border2)}
+.filter-btn.active{color:#fff;border-color:var(--accent2);background:rgba(0,153,255,0.12)}
+
+/* ── SECTOR HEATMAP TABLE ─────────────────────── */
+.sector-grid{
+  display:grid;
+  grid-template-columns:140px repeat(12,1fr);
+  gap:1px;
+  background:var(--border);
+  font-size:10px;
+}
+.sg-cell{
+  background:var(--bg2);padding:5px 6px;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;
+}
+.sg-head{background:var(--bg3);color:var(--dim);font-size:9px;letter-spacing:0.05em}
+.sg-sector{background:var(--bg3);color:var(--text);justify-content:flex-start;font-size:9px}
+.sg-val{font-weight:600;font-size:10px}
+
+/* ── ETF BAROMETER ────────────────────────────── */
+.etf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.etf-group{background:var(--bg3);border:1px solid var(--border);border-radius:2px;overflow:hidden}
+.etf-group-title{
+  font-family:var(--font-alt);font-size:9px;letter-spacing:0.15em;
+  text-transform:uppercase;color:var(--accent2);
+  padding:6px 10px;border-bottom:1px solid var(--border);
+}
+.etf-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:5px 10px;border-bottom:1px solid var(--border);
+  transition:background 0.1s;cursor:default;
+}
+.etf-row:last-child{border-bottom:none}
+.etf-row:hover{background:rgba(255,255,255,0.03)}
+.etf-label{color:var(--dim);font-size:10px;flex:1}
+.etf-ticker{color:var(--text);font-size:10px;width:48px;text-align:center}
+.etf-bar-wrap{width:80px;height:4px;background:var(--border);border-radius:2px;overflow:hidden;margin:0 8px}
+.etf-bar{height:100%;border-radius:2px;transition:width 0.4s}
+.etf-pct{font-size:11px;font-weight:700;width:54px;text-align:right}
+
+/* ── INDEX OVERVIEW ROW ───────────────────────── */
+.index-row{
+  display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;
+}
+.idx-card{
+  flex-shrink:0;min-width:110px;padding:8px 12px;
+  background:var(--bg3);border:1px solid var(--border);border-radius:2px;
+}
+.idx-name{font-size:9px;color:var(--dim);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:4px}
+.idx-val{font-size:16px;font-weight:700;font-family:var(--font-alt);line-height:1}
+.idx-chg{font-size:10px;margin-top:4px}
+
+/* ── COLOURS ──────────────────────────────────── */
+.up{color:var(--up)}
+.dn{color:var(--dn)}
+.flat{color:var(--dim)}
+.up-bg{background:var(--up-dim)}
+.dn-bg{background:var(--dn-dim)}
+
+/* ── LOADING ──────────────────────────────────── */
+.loading{
+  display:flex;align-items:center;justify-content:center;
+  padding:60px;color:var(--dim);gap:10px;font-size:11px;letter-spacing:0.1em;
+}
+.spinner{
+  width:14px;height:14px;border:1px solid var(--border2);
+  border-top-color:var(--accent);border-radius:50%;
+  animation:spin 0.8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.error-msg{color:var(--dn);padding:20px;font-size:11px;text-align:center}
+
+/* ── TOOLTIP ──────────────────────────────────── */
+#tooltip{
+  position:fixed;pointer-events:none;z-index:999;
+  background:var(--bg3);border:1px solid var(--border2);
+  border-radius:3px;padding:8px 12px;font-size:11px;
+  opacity:0;transition:opacity 0.1s;max-width:220px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.5);
+}
+#tooltip.show{opacity:1}
+.tt-name{color:var(--text);font-weight:700;margin-bottom:4px}
+.tt-row{display:flex;justify-content:space-between;gap:16px;color:var(--dim)}
+.tt-row span:last-child{font-weight:600}
+
+/* ── RESPONSIVE ───────────────────────────────── */
+@media(max-width:700px){
+  header{flex-wrap:wrap;gap:6px}
+  .sector-grid{grid-template-columns:80px repeat(6,1fr)}
+  main{padding:10px}
+}
+</style>
+</head>
+<body>
+<div id="app">
+
+<header>
+  <div class="logo">MARKET<span> //</span> TERMINAL</div>
+  <div style="display:flex;align-items:center;gap:0">
+    <div id="clock"></div>
+    <div id="last-updated"></div>
+  </div>
+</header>
+
+<nav>
+  <div class="tab active" data-view="treemap">Treemap</div>
+  <div class="tab" data-view="sectors">Sector Heatmap</div>
+  <div class="tab" data-view="etfs">ETF Barometer</div>
+  <div class="tab" data-view="indices">Global Indices</div>
+</nav>
+
+<div class="period-bar">
+  <div class="prd active" data-period="1d">1D</div>
+  <div class="prd" data-period="1w">1W</div>
+  <div class="prd" data-period="1mo">1M</div>
+  <div class="prd" data-period="3mo">3M</div>
+  <div class="prd" data-period="ytd">YTD</div>
+  <div class="prd" data-period="1y">1Y</div>
+</div>
+
+<main id="main-content">
+  <div class="loading"><div class="spinner"></div>LOADING MARKET DATA...</div>
+</main>
+
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+// ── STATE ──────────────────────────────────────────────────────────────────
+const STATE = {
+  view:    'treemap',
+  period:  '1d',
+  country: 'ALL',
+  sector:  'ALL',
+  drillPath: [],         // breadcrumb stack
+  data: {
+    stocks:  null,
+    indices: null,
+    etfs:    null,
+  }
+};
+
+const DATA_BASE = './data/';
+
+// Country flags (emoji)
+const FLAGS = {
+  US:'🇺🇸',UK:'🇬🇧',China:'🇨🇳',Japan:'🇯🇵',Europe:'🇪🇺',
+  Korea:'🇰🇷',Brazil:'🇧🇷',Turkey:'🇹🇷',Israel:'🇮🇱',
+  HongKong:'🇭🇰',Taiwan:'🇹🇼',Thailand:'🇹🇭'
+};
+
+const COUNTRY_LABELS = {
+  US:'United States',UK:'United Kingdom',China:'China',Japan:'Japan',
+  Europe:'Europe',Korea:'Korea',Brazil:'Brazil',Turkey:'Turkey',
+  Israel:'Israel',HongKong:'Hong Kong',Taiwan:'Taiwan',Thailand:'Thailand'
+};
+
+// ── UTILS ──────────────────────────────────────────────────────────────────
+function pctColor(v){
+  if(v===null||v===undefined||isNaN(v)) return 'flat';
+  if(v>0) return 'up';
+  if(v<0) return 'dn';
+  return 'flat';
+}
+function fmtPct(v){
+  if(v===null||v===undefined||isNaN(v)) return '—';
+  return (v>0?'+':'')+v.toFixed(2)+'%';
+}
+function clamp(v,lo,hi){return Math.max(lo,Math.min(hi,v))}
+function pctToColor(v){
+  if(v===null||v===undefined||isNaN(v)) return '#1e2530';
+  const intensity = clamp(Math.abs(v)/10,0,1);
+  if(v>0){
+    const g = Math.round(80 + intensity*120);
+    return `rgba(0,${g},80,${0.25+intensity*0.65})`;
+  } else {
+    const r = Math.round(120 + intensity*120);
+    return `rgba(${r},30,40,${0.25+intensity*0.65})`;
+  }
+}
+
+// ── DATA LOADING ───────────────────────────────────────────────────────────
+async function loadData(){
+  try {
+    const [stocks, indices, etfs] = await Promise.all([
+      fetch(DATA_BASE+'stocks.json').then(r=>r.json()),
+      fetch(DATA_BASE+'indices.json').then(r=>r.json()),
+      fetch(DATA_BASE+'etfs.json').then(r=>r.json()),
+    ]);
+    STATE.data.stocks  = stocks;
+    STATE.data.indices = indices;
+    STATE.data.etfs    = etfs;
+
+    // Show last updated
+    const ts = stocks.updated || indices.updated;
+    if(ts){
+      const d = new Date(ts);
+      document.getElementById('last-updated').textContent =
+        ' · Updated ' + d.toUTCString().replace(' GMT','') + ' UTC';
+    }
+    return true;
+  } catch(e){
+    return false;
+  }
+}
+
+// ── CLOCK ──────────────────────────────────────────────────────────────────
+function tickClock(){
+  const el = document.getElementById('clock');
+  if(!el) return;
+  const now = new Date();
+  el.textContent = now.toUTCString().slice(17,25) + ' UTC';
+}
+setInterval(tickClock,1000);
+tickClock();
+
+// ── TOOLTIP ───────────────────────────────────────────────────────────────
+const tt = document.getElementById('tooltip');
+document.addEventListener('mousemove',e=>{
+  tt.style.left = (e.clientX+14)+'px';
+  tt.style.top  = (e.clientY+14)+'px';
+});
+function showTT(html){tt.innerHTML=html;tt.classList.add('show')}
+function hideTT(){tt.classList.remove('show')}
+
+// ── RENDER DISPATCH ────────────────────────────────────────────────────────
+function render(){
+  const main = document.getElementById('main-content');
+  switch(STATE.view){
+    case 'treemap':  renderTreemap(main); break;
+    case 'sectors':  renderSectors(main); break;
+    case 'etfs':     renderETFs(main);    break;
+    case 'indices':  renderIndices(main); break;
+  }
+}
+
+// ── VIEW: TREEMAP ──────────────────────────────────────────────────────────
+function renderTreemap(main){
+  if(!STATE.data.stocks){ main.innerHTML='<div class="error-msg">No stock data loaded.</div>'; return; }
+
+  const period  = STATE.period;
+  const allCountries = Object.keys(STATE.data.stocks.data);
+
+  main.innerHTML = `
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Market Treemap</div>
+        <div class="panel-sub" id="tm-sub">Size = Market Cap · Colour = ${period} Return</div>
+      </div>
+      <div id="treemap-breadcrumb"></div>
+      <div class="treemap-filters" id="tm-filters"></div>
+      <div id="treemap-container"><svg id="treemap-svg"></svg></div>
+    </div>`;
+
+  // Country filter buttons
+  const filtersEl = document.getElementById('tm-filters');
+  const countryBtns = ['ALL', ...allCountries];
+  countryBtns.forEach(c=>{
+    const btn = document.createElement('div');
+    btn.className = 'filter-btn' + (STATE.country===c?' active':'');
+    btn.textContent = c==='ALL' ? 'All Markets' : ((FLAGS[c]||'')+' '+c);
+    btn.onclick = ()=>{ STATE.country=c; STATE.sector='ALL'; STATE.drillPath=[]; renderTreemap(main); };
+    filtersEl.appendChild(btn);
+  });
+
+  updateBreadcrumb();
+  drawTreemap(period);
+}
+
+function updateBreadcrumb(){
+  const el = document.getElementById('treemap-breadcrumb');
+  if(!el) return;
+  const path = ['ALL', ...STATE.drillPath];
+  el.innerHTML = path.map((p,i)=>{
+    const isLast = i===path.length-1;
+    const sep = i>0 ? '<span class="bc-sep"> › </span>' : '';
+    if(isLast) return `${sep}<span>${p}</span>`;
+    return `${sep}<span class="bc-item" data-idx="${i}">${p}</span>`;
+  }).join('');
+  el.querySelectorAll('.bc-item').forEach(el=>{
+    el.onclick = ()=>{
+      const idx = +el.dataset.idx;
+      STATE.drillPath = STATE.drillPath.slice(0, idx);
+      updateBreadcrumb();
+      drawTreemap(STATE.period);
+    };
+  });
+}
+
+function buildTreemapData(period){
+  const stocks = STATE.data.stocks.data;
+  const nodes  = [];
+
+  const countries = STATE.country==='ALL' ? Object.keys(stocks) : [STATE.country];
+
+  for(const country of countries){
+    const stks = stocks[country];
+    for(const [ticker, d] of Object.entries(stks)){
+      if(!d || d.error) continue;
+      const pct = d.changes?.[period];
+      const mc  = d.marketCap || 0;
+      if(!mc) continue;
+      nodes.push({
+        id: ticker,
+        country,
+        sector: d.sector || 'Other',
+        name: d.name || ticker,
+        marketCap: mc,
+        pct,
+      });
+    }
+  }
+  return nodes;
+}
+
+function drawTreemap(period){
+  const container = document.getElementById('treemap-container');
+  if(!container) return;
+
+  const W = container.offsetWidth || 900;
+  const H = Math.max(400, Math.round(W * 0.52));
+
+  const nodes = buildTreemapData(period);
+  if(!nodes.length){ container.innerHTML='<div class="error-msg">No data for selection.</div>'; return; }
+
+  // D3 hierarchy
+  const grouped = d3.group(nodes, d=>d.country, d=>d.sector);
+  const root = d3.hierarchy(
+    {name:'root', children:[...grouped].map(([country,sectors])=>({
+      name: country,
+      children: [...sectors].map(([sector,stocks])=>({
+        name: sector,
+        children: stocks
+      }))
+    }))}
+  ).sum(d=>d.marketCap||0).sort((a,b)=>b.value-a.value);
+
+  d3.treemap().size([W,H]).paddingInner(2).paddingOuter(4)(root);
+
+  const svg = d3.select('#treemap-svg')
+    .attr('viewBox',`0 0 ${W} ${H}`)
+    .attr('width',W).attr('height',H);
+  svg.selectAll('*').remove();
+
+  // Determine which level to show
+  let displayNodes;
+  if(STATE.country==='ALL' && STATE.drillPath.length===0){
+    // Level 0: countries
+    displayNodes = root.children;
+  } else if(STATE.drillPath.length<=1){
+    // Level 1: sectors within a country
+    const countryNode = root.children.find(c=>c.data.name===(STATE.country!=='ALL'?STATE.country:STATE.drillPath[0]));
+    displayNodes = countryNode ? countryNode.children : root.children;
+  } else {
+    // Level 2: stocks within a sector
+    const countryNode = root.children.find(c=>c.data.name===STATE.drillPath[0]);
+    const sectorNode  = countryNode?.children?.find(s=>s.data.name===STATE.drillPath[1]);
+    displayNodes = sectorNode ? sectorNode.leaves() : root.leaves();
+  }
+
+  if(!displayNodes || !displayNodes.length) return;
+
+  const g = svg.selectAll('g').data(displayNodes).enter().append('g')
+    .attr('transform',d=>`translate(${d.x0},${d.y0})`)
+    .attr('class','treemap-cell')
+    .on('click',(event,d)=>{
+      if(STATE.drillPath.length<2){
+        STATE.drillPath.push(d.data.name);
+        updateBreadcrumb();
+        drawTreemap(period);
+      }
+    })
+    .on('mouseenter',(event,d)=>{
+      const pct = d.data.pct ?? (d.children ? avgPct(d.leaves()) : null);
+      const mc  = d.value ? (d.value/1e9).toFixed(1)+'B' : '—';
+      showTT(`
+        <div class="tt-name">${d.data.name}</div>
+        <div class="tt-row"><span>Market Cap</span><span>${mc}</span></div>
+        <div class="tt-row"><span>Return (${period})</span><span class="${pctColor(pct)}">${fmtPct(pct)}</span></div>
+      `);
+    })
+    .on('mouseleave', hideTT);
+
+  g.append('rect')
+    .attr('width', d=>Math.max(0,d.x1-d.x0))
+    .attr('height',d=>Math.max(0,d.y1-d.y0))
+    .attr('fill', d=>{
+      const pct = d.data.pct ?? (d.children ? avgPct(d.leaves()) : null);
+      return pctToColor(pct);
+    })
+    .attr('rx',2);
+
+  // Labels
+  g.each(function(d){
+    const w = d.x1-d.x0, h = d.y1-d.y0;
+    if(w<28 || h<14) return;
+    const pct = d.data.pct ?? (d.children ? avgPct(d.leaves()) : null);
+    const sel = d3.select(this);
+    const label = STATE.drillPath.length===2 ? d.data.id||d.data.name : d.data.name;
+    const pctStr = fmtPct(pct);
+
+    if(h>42 && w>50){
+      sel.append('text').attr('class','cell-label cell-ticker')
+        .attr('x',w/2).attr('y',h/2-6)
+        .attr('text-anchor','middle').attr('dominant-baseline','middle')
+        .attr('font-size', clamp(Math.min(w/label.length*1.6, h*0.28), 9, 18)+'px')
+        .text(label);
+      sel.append('text').attr('class','cell-label cell-pct')
+        .attr('x',w/2).attr('y',h/2+10)
+        .attr('text-anchor','middle').attr('dominant-baseline','middle')
+        .attr('font-size',clamp(Math.min(w*0.14, h*0.2), 8, 13)+'px')
+        .attr('opacity',0.8)
+        .text(pctStr);
+    } else {
+      sel.append('text').attr('class','cell-label cell-ticker')
+        .attr('x',4).attr('y',h/2)
+        .attr('dominant-baseline','middle')
+        .attr('font-size',clamp(Math.min(w*0.18,h*0.55),7,12)+'px')
+        .text(label.length>8?label.slice(0,7)+'…':label);
+    }
+  });
+}
+
+function avgPct(leaves){
+  const vals = leaves.map(l=>l.data.pct).filter(v=>v!==null&&v!==undefined&&!isNaN(v));
+  if(!vals.length) return null;
+  return vals.reduce((a,b)=>a+b,0)/vals.length;
+}
+
+// ── VIEW: SECTOR HEATMAP ───────────────────────────────────────────────────
+function renderSectors(main){
+  if(!STATE.data.stocks){ main.innerHTML='<div class="error-msg">No data.</div>'; return; }
+
+  const period   = STATE.period;
+  const stocks   = STATE.data.stocks.data;
+  const countries = Object.keys(stocks);
+
+  // Gather all sectors across all countries
+  const sectorSet = new Set();
+  for(const c of countries)
+    for(const s of Object.values(stocks[c]))
+      if(s.sector) sectorSet.add(s.sector);
+  const sectors = [...sectorSet].sort();
+
+  // Compute avg pct per country × sector
+  function avg(country, sector){
+    const arr = Object.values(stocks[country])
+      .filter(s=>s.sector===sector && s.changes?.[period]!==null && s.changes?.[period]!==undefined)
+      .map(s=>s.changes[period]);
+    if(!arr.length) return null;
+    return arr.reduce((a,b)=>a+b,0)/arr.length;
+  }
+
+  let html = `
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Sector Heatmap</div>
+        <div class="panel-sub">Avg return per market × sector · ${period}</div>
+      </div>
+      <div class="panel-body" style="overflow-x:auto;padding:0">
+        <div class="sector-grid" style="grid-template-columns:130px repeat(${countries.length},1fr)">
+          <div class="sg-cell sg-head">Sector</div>
+  `;
+  for(const c of countries)
+    html += `<div class="sg-cell sg-head">${FLAGS[c]||''} ${c}</div>`;
+
+  for(const sector of sectors){
+    html += `<div class="sg-cell sg-sector">${sector||'Other'}</div>`;
+    for(const c of countries){
+      const v = avg(c, sector);
+      const col = pctToColor(v);
+      html += `<div class="sg-cell sg-val" style="background:${col}">
+        <span class="${pctColor(v)}">${fmtPct(v)}</span></div>`;
+    }
+  }
+  html += `</div></div></div>`;
+  main.innerHTML = html;
+}
+
+// ── VIEW: ETF BAROMETER ────────────────────────────────────────────────────
+function renderETFs(main){
+  if(!STATE.data.etfs){ main.innerHTML='<div class="error-msg">No ETF data.</div>'; return; }
+
+  const period = STATE.period;
+  const etfs   = STATE.data.etfs.data;
+
+  // Find max abs pct for bar scaling
+  let maxAbs = 0;
+  for(const group of Object.values(etfs))
+    for(const d of Object.values(group)){
+      const v = Math.abs(d.changes?.[period]??0);
+      if(v>maxAbs) maxAbs = v;
+    }
+  maxAbs = maxAbs || 1;
+
+  let html = `
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Thematic ETF Barometer</div>
+        <div class="panel-sub">US-listed · Return from peak shown as drawdown context · ${period}</div>
+      </div>
+      <div class="panel-body">
+        <div class="etf-grid">`;
+
+  for(const [groupName, members] of Object.entries(etfs)){
+    html += `<div class="etf-group"><div class="etf-group-title">${groupName}</div>`;
+    for(const [label, d] of Object.entries(members)){
+      const v = d.changes?.[period];
+      const pct = fmtPct(v);
+      const cls = pctColor(v);
+      const barW = v!==null&&v!==undefined&&!isNaN(v) ? Math.round(Math.abs(v)/maxAbs*100) : 0;
+      const barColor = v>0 ? 'var(--up)' : 'var(--dn)';
+      html += `
+        <div class="etf-row">
+          <span class="etf-label">${label}</span>
+          <span class="etf-ticker">${d.ticker||''}</span>
+          <div class="etf-bar-wrap"><div class="etf-bar" style="width:${barW}%;background:${barColor}"></div></div>
+          <span class="etf-pct ${cls}">${pct}</span>
+        </div>`;
+    }
+    html += `</div>`;
+  }
+
+  html += `</div></div></div>`;
+  main.innerHTML = html;
+}
+
+// ── VIEW: GLOBAL INDICES ───────────────────────────────────────────────────
+function renderIndices(main){
+  if(!STATE.data.indices){ main.innerHTML='<div class="error-msg">No index data.</div>'; return; }
+
+  const period  = STATE.period;
+  const indices = STATE.data.indices.data;
+
+  let cards = '';
+  for(const [country, d] of Object.entries(indices)){
+    const v   = d.changes?.[period];
+    const cls = pctColor(v);
+    cards += `
+      <div class="idx-card">
+        <div class="idx-name">${FLAGS[country]||''} ${country}</div>
+        <div class="idx-val ${cls}">${fmtPct(v)}</div>
+        <div class="idx-chg ${cls}" style="font-size:9px;color:var(--dim)">${d.ticker}</div>
+      </div>`;
+  }
+
+  main.innerHTML = `
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title">Global Indices</div>
+        <div class="panel-sub">${period} performance</div>
+      </div>
+      <div class="panel-body">
+        <div class="index-row">${cards}</div>
+      </div>
+    </div>`;
+}
+
+// ── EVENT LISTENERS ────────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(el=>{
+  el.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    el.classList.add('active');
+    STATE.view = el.dataset.view;
+    STATE.drillPath = [];
+    render();
+  });
+});
+
+document.querySelectorAll('.prd').forEach(el=>{
+  el.addEventListener('click',()=>{
+    document.querySelectorAll('.prd').forEach(p=>p.classList.remove('active'));
+    el.classList.add('active');
+    STATE.period = el.dataset.period;
+    render();
+  });
+});
+
+// ── BOOT ──────────────────────────────────────────────────────────────────
+(async ()=>{
+  const ok = await loadData();
+  if(!ok){
+    document.getElementById('main-content').innerHTML = `
+      <div class="error-msg">
+        ⚠ Could not load market data.<br><br>
+        Run <code>python scripts/fetch_data.py</code> to generate the data files,
+        then push to GitHub.<br>
+        GitHub Actions will handle daily updates automatically.
+      </div>`;
+    return;
+  }
+  render();
+})();
+</script>
+</body>
+</html>
