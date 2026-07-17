@@ -1,419 +1,257 @@
 {
-  "updated": "2026-07-16T23:52:38.323994Z",
+  "updated": "2026-07-17T23:45:24.683620Z",
   "data": {
     "Sector": {
       "정보기술": {
         "ticker": "XLK",
-        "name": "State Street Technology Select ",
+        "name": "XLK",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -2.24,
-          "1w": -4.45,
-          "1mo": -4.34,
-          "3mo": 15.15,
-          "ytd": 23.32,
-          "1y": 36.71
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "헬스케어": {
         "ticker": "XLV",
-        "name": "State Street Health Care Select",
+        "name": "XLV",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 2.22,
-          "1w": 0.6,
-          "1mo": 7.83,
-          "3mo": 9.22,
-          "ytd": 4.93,
-          "1y": 24.04
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "금융": {
         "ticker": "XLF",
-        "name": "State Street Financial Select S",
+        "name": "XLF",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.34,
-          "1w": 1.87,
-          "1mo": 5.36,
-          "3mo": 8.62,
-          "ytd": 4.21,
-          "1y": 9.75
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "커뮤니케이션": {
         "ticker": "XLC",
-        "name": "State Street Communication Serv",
+        "name": "XLC",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -0.64,
-          "1w": 0.9,
-          "1mo": 3.43,
-          "3mo": -5.17,
-          "ytd": -3.08,
-          "1y": 6.92
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "소비순환재": {
         "ticker": "XLY",
-        "name": "State Street Consumer Discretio",
+        "name": "XLY",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.29,
-          "1w": 0.09,
-          "1mo": 1.8,
-          "3mo": -2.36,
-          "ytd": -0.46,
-          "1y": 7.39
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "경기방어주": {
         "ticker": "XLP",
-        "name": "State Street Consumer Staples S",
+        "name": "XLP",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 2.8,
-          "1w": 2.01,
-          "1mo": 3.26,
-          "3mo": 4.78,
-          "ytd": 11.84,
-          "1y": 8.73
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "산업재": {
         "ticker": "XLI",
-        "name": "State Street Industrial Select ",
+        "name": "XLI",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.05,
-          "1w": -0.97,
-          "1mo": 0.55,
-          "3mo": 4.08,
-          "ytd": 14.64,
-          "1y": 20.21
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "유틸리티": {
         "ticker": "XLU",
-        "name": "State Street Utilities Select S",
+        "name": "XLU",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.55,
-          "1w": 0.13,
-          "1mo": 2.92,
-          "3mo": -0.87,
-          "ytd": 6.72,
-          "1y": 13.48
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "에너지": {
         "ticker": "XLE",
-        "name": "State Street Energy Select Sect",
+        "name": "XLE",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.92,
-          "1w": 3.52,
-          "1mo": 5.05,
-          "3mo": 4.38,
-          "ytd": 26.63,
-          "1y": 35.7
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "리츠(섹터)": {
         "ticker": "XLRE",
-        "name": "State Street Real Estate Select",
+        "name": "XLRE",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 2.02,
-          "1w": 2.27,
-          "1mo": 4.29,
-          "3mo": 3.1,
-          "ytd": 14.33,
-          "1y": 12.72
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "소재": {
         "ticker": "XLB",
-        "name": "State Street Materials Select S",
+        "name": "XLB",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.77,
-          "1w": 0.0,
-          "1mo": -1.81,
-          "3mo": -1.54,
-          "ytd": 11.25,
-          "1y": 15.14
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       }
     },
     "Value/Growth": {
       "대형성장": {
         "ticker": "VUG",
-        "name": "Vanguard Growth ETF",
+        "name": "VUG",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.37,
-          "1w": -0.96,
-          "1mo": 1.22,
-          "3mo": 5.27,
-          "ytd": 7.06,
-          "1y": 16.41
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "중형성장": {
         "ticker": "IWP",
-        "name": "iShares Russell Midcap Growth E",
+        "name": "IWP",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.4,
-          "1w": -2.93,
-          "1mo": -1.59,
-          "3mo": 0.57,
-          "ytd": 0.27,
-          "1y": -0.69
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "대형가치": {
         "ticker": "VTV",
-        "name": "Vanguard Value ETF",
+        "name": "VTV",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.63,
-          "1w": -0.16,
-          "1mo": 1.78,
-          "3mo": 7.69,
-          "ytd": 14.7,
-          "1y": 25.56
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "중형가치": {
         "ticker": "VOE",
-        "name": "Vanguard Mid-Cap Value ETF",
+        "name": "VOE",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 1.14,
-          "1w": 1.02,
-          "1mo": 4.35,
-          "3mo": 6.14,
-          "ytd": 14.78,
-          "1y": 24.45
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       }
     },
     "Growth Themes": {
       "반도체": {
         "ticker": "SOXX",
-        "name": "iShares PHLX SOX Semiconductor ",
+        "name": "SOXX",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -4.46,
-          "1w": -8.75,
-          "1mo": -11.54,
-          "3mo": 27.67,
-          "ytd": 69.3,
-          "1y": 116.19
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "클라우드": {
         "ticker": "SKYY",
-        "name": "First Trust Cloud Computing ETF",
+        "name": "SKYY",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -0.47,
-          "1w": -2.43,
-          "1mo": 3.38,
-          "3mo": 16.39,
-          "ytd": 6.74,
-          "1y": 11.42
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "인공지능": {
         "ticker": "AIQ",
-        "name": "Global X Artificial Intelligenc",
+        "name": "AIQ",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -2.96,
-          "1w": -6.51,
-          "1mo": -7.8,
-          "3mo": 9.63,
-          "ytd": 15.32,
-          "1y": 33.61
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "사이버보안": {
         "ticker": "CIBR",
-        "name": "First Trust NASDAQ Cybersecurit",
+        "name": "CIBR",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.29,
-          "1w": 0.01,
-          "1mo": 9.19,
-          "3mo": 38.34,
-          "ytd": 30.35,
-          "1y": 24.76
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       }
     },
     "Dividend": {
       "기술배당": {
         "ticker": "VIG",
-        "name": "Vanguard Div Appreciation ETF",
+        "name": "VIG",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 0.75,
-          "1w": 0.12,
-          "1mo": 2.36,
-          "3mo": 5.58,
-          "ytd": 9.29,
-          "1y": 17.62
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "배당성장": {
         "ticker": "SCHD",
-        "name": "Schwab US Dividend Equity ETF",
+        "name": "SCHD",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 2.16,
-          "1w": 1.98,
-          "1mo": 4.3,
-          "3mo": 7.26,
-          "ytd": 21.11,
-          "1y": 26.21
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "리츠": {
         "ticker": "VNQ",
-        "name": "Vanguard Real Estate ETF",
+        "name": "VNQ",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": 2.26,
-          "1w": 2.83,
-          "1mo": 5.59,
-          "3mo": 4.42,
-          "ytd": 15.26,
-          "1y": 15.82
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "커버드콜": {
         "ticker": "JEPQ",
-        "name": "JPMorgan Nasdaq Equity Premium ",
+        "name": "JEPQ",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.43,
-          "1w": -2.07,
-          "1mo": -0.81,
-          "3mo": 4.07,
-          "ytd": 7.94,
-          "1y": 20.52
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       }
     },
     "Innovation": {
       "로봇": {
         "ticker": "BOTZ",
-        "name": "Global X Robotics & Artificial ",
+        "name": "BOTZ",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.39,
-          "1w": -3.74,
-          "1mo": -5.43,
-          "3mo": -4.98,
-          "ytd": -3.17,
-          "1y": 7.47
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "원전": {
         "ticker": "URA",
-        "name": "Global X Uranium ETF",
+        "name": "URA",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -4.38,
-          "1w": -8.98,
-          "1mo": -16.96,
-          "3mo": -29.99,
-          "ytd": -15.09,
-          "1y": 1.38
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "비트코인": {
         "ticker": "IBIT",
-        "name": "iShares Bitcoin Trust ETF",
+        "name": "IBIT",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -1.14,
-          "1w": 0.44,
-          "1mo": 0.08,
-          "3mo": -17.18,
-          "ytd": -28.56,
-          "1y": -46.21
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       },
       "혁신": {
         "ticker": "ARKK",
-        "name": "ARK Innovation ETF",
+        "name": "ARKK",
         "sector": "",
         "marketCap": null,
-        "currency": "USD",
-        "changes": {
-          "1d": -3.68,
-          "1w": -4.46,
-          "1mo": -2.32,
-          "3mo": -3.23,
-          "ytd": -2.09,
-          "1y": 0.56
-        }
+        "currency": "",
+        "changes": {},
+        "error": "Too Many Requests. Rate limited. Try after a while."
       }
     }
   }
