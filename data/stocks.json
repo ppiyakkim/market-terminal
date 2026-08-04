@@ -1,705 +1,705 @@
 {
-  "updated": "2026-07-31T23:55:29.204064Z",
+  "updated": "2026-08-04T00:01:59.402246Z",
   "data": {
     "US": {
       "AAPL": {
         "name": "Apple Inc.",
         "sector": "Technology",
-        "marketCap": 4537070911488,
+        "marketCap": 4456437514240,
         "currency": "USD",
         "changes": {
-          "1d": -7.35,
-          "1w": -8.31,
-          "1mo": 4.94,
-          "3mo": 10.37,
-          "ytd": 14.2,
-          "1y": 53.24
+          "1d": -1.78,
+          "1w": -10.78,
+          "1mo": -2.96,
+          "3mo": 9.71,
+          "ytd": 12.17,
+          "1y": 49.8
         }
       },
       "MSFT": {
         "name": "Microsoft Corporation",
         "sector": "Technology",
-        "marketCap": 3450799652864,
+        "marketCap": 3621067423744,
         "currency": "USD",
         "changes": {
-          "1d": 3.02,
-          "1w": 19.43,
-          "1mo": 20.93,
-          "3mo": 12.37,
-          "ytd": -1.3,
-          "1y": -10.62
+          "1d": 4.93,
+          "1w": 23.97,
+          "1mo": 26.09,
+          "3mo": 18.15,
+          "ytd": 3.57,
+          "1y": -8.23
         }
       },
       "NVDA": {
         "name": "NVIDIA Corporation",
         "sector": "Technology",
-        "marketCap": 4862365925376,
+        "marketCap": 5005027311616,
         "currency": "USD",
         "changes": {
           "1d": 2.93,
-          "1w": 2.16,
-          "1mo": 1.6,
-          "3mo": 1.28,
-          "ytd": 6.43,
-          "1y": 15.71
+          "1w": 4.89,
+          "1mo": 5.67,
+          "3mo": 4.23,
+          "ytd": 9.55,
+          "1y": 14.95
         }
       },
       "AMZN": {
         "name": "Amazon.com, Inc.",
         "sector": "Cons. Cyclical",
-        "marketCap": 2921415835648,
+        "marketCap": 3055234318336,
         "currency": "USD",
         "changes": {
-          "1d": 15.32,
-          "1w": 17.37,
-          "1mo": 12.36,
-          "3mo": 1.24,
-          "ytd": 19.9,
-          "1y": 26.46
+          "1d": 4.58,
+          "1w": 23.03,
+          "1mo": 16.33,
+          "3mo": 4.4,
+          "ytd": 25.4,
+          "1y": 34.19
         }
       },
       "META": {
         "name": "Meta Platforms, Inc.",
         "sector": "Comm. Services",
-        "marketCap": 1418222239744,
+        "marketCap": 1503640027136,
         "currency": "USD",
         "changes": {
-          "1d": 3.28,
-          "1w": -6.26,
-          "1mo": -9.17,
-          "3mo": -8.46,
-          "ytd": -14.25,
-          "1y": -25.53
+          "1d": 6.02,
+          "1w": -0.53,
+          "1mo": -1.67,
+          "3mo": -3.21,
+          "ytd": -9.09,
+          "1y": -23.73
         }
       },
       "GOOGL": {
         "name": "Alphabet Inc.",
         "sector": "Comm. Services",
-        "marketCap": 4355446800384,
+        "marketCap": 4568003379200,
         "currency": "USD",
         "changes": {
-          "1d": 6.73,
-          "1w": 9.05,
-          "1mo": -1.41,
-          "3mo": -7.61,
-          "ytd": 13.15,
-          "1y": 88.84
+          "1d": 4.88,
+          "1w": 11.93,
+          "1mo": 1.92,
+          "3mo": -2.48,
+          "ytd": 18.67,
+          "1y": 92.05
         }
       },
       "GOOG": {
         "name": "Alphabet Inc.",
         "sector": "Comm. Services",
-        "marketCap": 4361806151680,
+        "marketCap": 4555284152320,
         "currency": "USD",
         "changes": {
-          "1d": 6.88,
-          "1w": 9.21,
-          "1mo": -0.35,
-          "3mo": -6.88,
-          "ytd": 13.26,
-          "1y": 88.3
+          "1d": 4.44,
+          "1w": 11.99,
+          "1mo": 2.07,
+          "3mo": -1.83,
+          "ytd": 18.28,
+          "1y": 90.82
         }
       },
       "BRK-B": {
         "name": "Berkshire Hathaway Inc. New",
         "sector": "Financials",
-        "marketCap": 1103317041152,
+        "marketCap": 1106767904768,
         "currency": "USD",
         "changes": {
-          "1d": 0.36,
-          "1w": 2.89,
-          "1mo": 2.36,
-          "3mo": 8.15,
-          "ytd": 2.96,
-          "1y": 8.18
+          "1d": 0.31,
+          "1w": 0.15,
+          "1mo": 1.29,
+          "3mo": 9.52,
+          "ytd": 3.28,
+          "1y": 11.77
         }
       },
       "LLY": {
         "name": "Eli Lilly and Company",
         "sector": "Healthcare",
-        "marketCap": null,
+        "marketCap": 999963099136,
         "currency": "USD",
         "changes": {
-          "1d": -0.53,
-          "1w": -4.07,
-          "1mo": -3.6,
-          "3mo": 19.46,
-          "ytd": 6.7,
-          "1y": 51.77
+          "1d": -2.39,
+          "1w": -8.13,
+          "1mo": -6.56,
+          "3mo": 16.05,
+          "ytd": 4.15,
+          "1y": 46.85
         }
       },
       "AVGO": {
         "name": "Broadcom Inc.",
         "sector": "Technology",
-        "marketCap": 1852030844928,
+        "marketCap": 1866065772544,
         "currency": "USD",
         "changes": {
-          "1d": 0.37,
-          "1w": 1.58,
-          "1mo": 5.4,
-          "3mo": -7.45,
-          "ytd": 12.4,
-          "1y": 35.86
+          "1d": 0.76,
+          "1w": 2.97,
+          "1mo": 4.9,
+          "3mo": -5.68,
+          "ytd": 13.25,
+          "1y": 32.71
         }
       },
       "JPM": {
         "name": "JP Morgan Chase & Co.",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 937387687936,
         "currency": "USD",
         "changes": {
-          "1d": 0.27,
-          "1w": -1.24,
-          "1mo": 5.78,
-          "3mo": 13.09,
-          "ytd": 9.62,
-          "1y": 23.9
+          "1d": 0.24,
+          "1w": -1.31,
+          "1mo": 4.42,
+          "3mo": 15.14,
+          "ytd": 9.88,
+          "1y": 22.13
         }
       },
       "TSLA": {
         "name": "Tesla, Inc.",
         "sector": "Cons. Cyclical",
-        "marketCap": 1229138690048,
+        "marketCap": 1272070275072,
         "currency": "USD",
         "changes": {
-          "1d": 0.76,
-          "1w": 0.64,
-          "1mo": -26.83,
-          "3mo": -20.37,
-          "ytd": -28.96,
-          "1y": 2.84
+          "1d": 3.49,
+          "1w": 4.76,
+          "1mo": -23.27,
+          "3mo": -17.94,
+          "ytd": -26.48,
+          "1y": 4.15
         }
       },
       "UNH": {
         "name": "UnitedHealth Group Incorporated",
         "sector": "Healthcare",
-        "marketCap": 376335040512,
+        "marketCap": 377206833152,
         "currency": "USD",
         "changes": {
-          "1d": -1.68,
-          "1w": -0.78,
-          "1mo": -2.85,
-          "3mo": 13.01,
-          "ytd": 24.85,
-          "1y": 78.95
+          "1d": 0.23,
+          "1w": -3.13,
+          "1mo": -0.63,
+          "3mo": 12.67,
+          "ytd": 25.14,
+          "1y": 76.98
         }
       },
       "V": {
         "name": "Visa Inc.",
         "sector": "Financials",
-        "marketCap": 683582029824,
+        "marketCap": 682723180544,
         "currency": "USD",
         "changes": {
-          "1d": -0.04,
-          "1w": 0.99,
-          "1mo": 4.29,
-          "3mo": 11.85,
-          "ytd": 6.11,
-          "1y": 8.74
+          "1d": -0.13,
+          "1w": -0.25,
+          "1mo": 2.36,
+          "3mo": 12.11,
+          "ytd": 5.98,
+          "1y": 7.72
         }
       },
       "XOM": {
         "name": "ExxonMobil Holdings Corporation",
         "sector": "Energy",
-        "marketCap": null,
+        "marketCap": 642715484160,
         "currency": "USD",
         "changes": {
-          "1d": -0.97,
-          "1w": 0.43,
-          "1mo": 14.06,
-          "3mo": 2.45,
-          "ytd": 28.45,
-          "1y": 46.29
+          "1d": -0.24,
+          "1w": 1.32,
+          "1mo": 13.65,
+          "3mo": 1.58,
+          "ytd": 28.13,
+          "1y": 49.02
         }
       },
       "MA": {
         "name": "Mastercard Incorporated",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 500175372288,
         "currency": "USD",
         "changes": {
-          "1d": -0.74,
-          "1w": 3.88,
-          "1mo": 9.88,
-          "3mo": 15.86,
-          "ytd": 2.27,
-          "1y": 3.0
+          "1d": -0.37,
+          "1w": 1.46,
+          "1mo": 7.28,
+          "3mo": 13.31,
+          "ytd": 1.89,
+          "1y": 0.83
         }
       },
       "COST": {
         "name": "Costco Wholesale Corporation",
         "sector": "Cons. Defensive",
-        "marketCap": 422143066112,
+        "marketCap": 423114276864,
         "currency": "USD",
         "changes": {
-          "1d": -0.24,
-          "1w": 0.03,
-          "1mo": 3.11,
-          "3mo": -5.76,
-          "ytd": 11.89,
-          "1y": 0.52
+          "1d": 0.23,
+          "1w": -1.29,
+          "1mo": 0.56,
+          "3mo": -5.65,
+          "ytd": 12.15,
+          "1y": 0.45
         }
       },
       "JNJ": {
         "name": "Johnson & Johnson",
         "sector": "Healthcare",
-        "marketCap": 617777463296,
+        "marketCap": 613102256128,
         "currency": "USD",
         "changes": {
-          "1d": 0.21,
-          "1w": -3.61,
-          "1mo": 0.93,
-          "3mo": 13.48,
-          "ytd": 25.0,
-          "1y": 57.03
+          "1d": -0.76,
+          "1w": -4.62,
+          "1mo": -1.9,
+          "3mo": 14.13,
+          "ytd": 24.06,
+          "1y": 52.46
         }
       },
       "PG": {
         "name": "Procter & Gamble Company (The)",
         "sector": "Cons. Defensive",
-        "marketCap": null,
+        "marketCap": 337577017344,
         "currency": "USD",
         "changes": {
-          "1d": 0.37,
-          "1w": -2.79,
-          "1mo": -1.26,
-          "3mo": -1.15,
-          "ytd": 4.17,
-          "1y": -1.27
+          "1d": 0.33,
+          "1w": -2.63,
+          "1mo": -2.18,
+          "3mo": 1.84,
+          "ytd": 4.52,
+          "1y": -1.01
         }
       },
       "HD": {
         "name": "Home Depot, Inc. (The)",
         "sector": "Cons. Cyclical",
-        "marketCap": null,
+        "marketCap": 339039584256,
         "currency": "USD",
         "changes": {
-          "1d": -0.42,
-          "1w": -1.23,
-          "1mo": -5.38,
-          "3mo": 3.26,
-          "ytd": -2.64,
-          "1y": -8.8
+          "1d": 2.43,
+          "1w": -1.29,
+          "1mo": -3.03,
+          "3mo": 9.65,
+          "ytd": -0.28,
+          "1y": -8.34
         }
       },
       "NFLX": {
         "name": "Netflix, Inc.",
         "sector": "Comm. Services",
-        "marketCap": 298596106240,
+        "marketCap": 305341693952,
         "currency": "USD",
         "changes": {
-          "1d": -2.0,
-          "1w": 1.86,
-          "1mo": -3.34,
-          "3mo": -22.11,
-          "ytd": -21.19,
-          "1y": -38.11
+          "1d": 2.26,
+          "1w": 1.3,
+          "1mo": -3.54,
+          "3mo": -19.44,
+          "ytd": -19.41,
+          "1y": -37.38
         }
       },
       "BAC": {
         "name": "Bank of America Corporation",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 438482599936,
         "currency": "USD",
         "changes": {
-          "1d": 0.36,
-          "1w": -0.29,
-          "1mo": 6.15,
-          "3mo": 16.96,
-          "ytd": 11.93,
-          "1y": 38.63
+          "1d": 0.86,
+          "1w": -0.22,
+          "1mo": 4.31,
+          "3mo": 20.34,
+          "ytd": 12.89,
+          "1y": 39.24
         }
       },
       "ABBV": {
         "name": "AbbVie Inc.",
         "sector": "Healthcare",
-        "marketCap": 443359002624,
+        "marketCap": 433040949248,
         "currency": "USD",
         "changes": {
-          "1d": -2.51,
-          "1w": -2.32,
-          "1mo": 0.66,
-          "3mo": 22.33,
-          "ytd": 12.02,
-          "1y": 32.53
+          "1d": -2.33,
+          "1w": -6.88,
+          "1mo": -3.11,
+          "3mo": 18.58,
+          "ytd": 9.41,
+          "1y": 28.15
         }
       },
       "KO": {
         "name": "Coca-Cola Company (The)",
         "sector": "Cons. Defensive",
-        "marketCap": 376860246016,
+        "marketCap": 373719400448,
         "currency": "USD",
         "changes": {
-          "1d": -1.02,
-          "1w": 4.19,
-          "1mo": 7.75,
-          "3mo": 12.19,
-          "ytd": 28.42,
-          "1y": 30.8
+          "1d": -0.83,
+          "1w": -1.6,
+          "1mo": 4.7,
+          "3mo": 11.81,
+          "ytd": 27.35,
+          "1y": 29.52
         }
       },
       "CRM": {
         "name": "Salesforce, Inc.",
         "sector": "Technology",
-        "marketCap": null,
+        "marketCap": 152293048320,
         "currency": "USD",
         "changes": {
-          "1d": 1.83,
-          "1w": 6.0,
-          "1mo": 12.74,
-          "3mo": 0.37,
-          "ytd": -27.07,
-          "1y": -25.99
+          "1d": 1.05,
+          "1w": 2.45,
+          "1mo": 12.25,
+          "3mo": 0.51,
+          "ytd": -26.31,
+          "1y": -25.68
         }
       },
       "AMD": {
         "name": "Advanced Micro Devices, Inc.",
         "sector": "Technology",
-        "marketCap": null,
+        "marketCap": 790254256128,
         "currency": "USD",
         "changes": {
-          "1d": -1.9,
-          "1w": -3.8,
-          "1mo": -11.97,
-          "3mo": 32.07,
-          "ytd": 113.07,
-          "1y": 177.32
+          "1d": 1.78,
+          "1w": 6.6,
+          "1mo": -12.21,
+          "3mo": 41.9,
+          "ytd": 116.87,
+          "1y": 174.15
         }
       },
       "WMT": {
         "name": "Walmart Inc.",
         "sector": "Cons. Defensive",
-        "marketCap": 884938375168,
+        "marketCap": 881038917632,
         "currency": "USD",
         "changes": {
-          "1d": 0.09,
-          "1w": -0.48,
-          "1mo": 2.19,
-          "3mo": -15.34,
-          "ytd": -0.99,
-          "1y": 13.85
+          "1d": -0.44,
+          "1w": -2.11,
+          "1mo": 0.05,
+          "3mo": -14.89,
+          "ytd": -1.43,
+          "1y": 12.1
         }
       },
       "MRK": {
         "name": "Merck & Company, Inc.",
         "sector": "Healthcare",
-        "marketCap": null,
+        "marketCap": 315569471488,
         "currency": "USD",
         "changes": {
-          "1d": 0.32,
-          "1w": -0.43,
-          "1mo": 3.85,
-          "3mo": 16.92,
-          "ytd": 24.1,
-          "1y": 69.7
+          "1d": -1.87,
+          "1w": -3.07,
+          "1mo": 0.78,
+          "3mo": 13.77,
+          "ytd": 21.79,
+          "1y": 65.34
         }
       },
       "CVX": {
         "name": "Chevron Corporation",
         "sector": "Energy",
-        "marketCap": 392006172672,
+        "marketCap": 384736821248,
         "currency": "USD",
         "changes": {
-          "1d": 2.35,
-          "1w": 3.59,
-          "1mo": 18.79,
-          "3mo": 4.2,
-          "ytd": 28.66,
-          "1y": 35.45
+          "1d": -1.85,
+          "1w": 2.99,
+          "1mo": 14.92,
+          "3mo": 1.39,
+          "ytd": 26.27,
+          "1y": 33.26
         }
       },
       "ORCL": {
         "name": "Oracle Corporation",
         "sector": "Technology",
-        "marketCap": 374086762496,
+        "marketCap": 408594841600,
         "currency": "USD",
         "changes": {
-          "1d": 1.81,
-          "1w": 8.32,
-          "1mo": -8.55,
-          "3mo": -24.16,
-          "ytd": -33.0,
-          "1y": -46.26
+          "1d": 9.22,
+          "1w": 18.25,
+          "1mo": -0.99,
+          "3mo": -21.05,
+          "ytd": -26.82,
+          "1y": -43.19
         }
       },
       "PEP": {
         "name": "Pepsico, Inc.",
         "sector": "Cons. Defensive",
-        "marketCap": 190638964736,
+        "marketCap": 190734581760,
         "currency": "USD",
         "changes": {
-          "1d": -0.46,
-          "1w": -0.16,
-          "1mo": -1.13,
-          "3mo": -10.41,
-          "ytd": 0.04,
-          "1y": 4.17
+          "1d": 0.05,
+          "1w": -2.26,
+          "1mo": -2.55,
+          "3mo": -8.73,
+          "ytd": 0.09,
+          "1y": 4.01
         }
       },
       "TMO": {
         "name": "Thermo Fisher Scientific Inc",
         "sector": "Healthcare",
-        "marketCap": null,
+        "marketCap": 213321891840,
         "currency": "USD",
         "changes": {
-          "1d": -0.43,
-          "1w": 2.64,
-          "1mo": 11.88,
-          "3mo": 22.52,
-          "ytd": -2.88,
-          "1y": 24.48
+          "1d": -0.05,
+          "1w": -0.41,
+          "1mo": 10.9,
+          "3mo": 24.21,
+          "ytd": -2.93,
+          "1y": 23.48
         }
       },
       "ACN": {
         "name": "Accenture plc",
         "sector": "Technology",
-        "marketCap": 101533425664,
+        "marketCap": 101435514880,
         "currency": "USD",
         "changes": {
-          "1d": 1.61,
-          "1w": 7.7,
-          "1mo": 28.05,
-          "3mo": -6.63,
-          "ytd": -34.86,
-          "1y": -33.69
+          "1d": -0.1,
+          "1w": 0.67,
+          "1mo": 22.48,
+          "3mo": -6.87,
+          "ytd": -34.92,
+          "1y": -34.63
         }
       },
       "ADBE": {
         "name": "Adobe Inc.",
         "sector": "Technology",
-        "marketCap": 99537977344,
+        "marketCap": 99907649536,
         "currency": "USD",
         "changes": {
-          "1d": 1.01,
-          "1w": 5.32,
-          "1mo": 18.69,
-          "3mo": -0.12,
-          "ytd": -24.87,
-          "1y": -28.0
+          "1d": 0.37,
+          "1w": 0.87,
+          "1mo": 15.26,
+          "3mo": -1.03,
+          "ytd": -24.59,
+          "1y": -25.83
         }
       },
       "MCD": {
         "name": "McDonald's Corporation",
         "sector": "Cons. Cyclical",
-        "marketCap": null,
+        "marketCap": 188447473664,
         "currency": "USD",
         "changes": {
-          "1d": 0.82,
-          "1w": -0.01,
-          "1mo": 0.45,
-          "3mo": -4.94,
-          "ytd": -9.65,
-          "1y": -8.48
+          "1d": -2.0,
+          "1w": -2.85,
+          "1mo": -5.11,
+          "3mo": -6.01,
+          "ytd": -11.46,
+          "1y": -10.7
         }
       },
       "QCOM": {
         "name": "QUALCOMM Incorporated",
         "sector": "Technology",
-        "marketCap": 154990493696,
+        "marketCap": 159148507136,
         "currency": "USD",
         "changes": {
-          "1d": -2.63,
-          "1w": -13.19,
-          "1mo": -18.86,
-          "3mo": -16.3,
-          "ytd": -13.8,
-          "1y": 1.71
+          "1d": 2.68,
+          "1w": -6.94,
+          "1mo": -18.72,
+          "3mo": -9.65,
+          "ytd": -11.49,
+          "1y": 4.92
         }
       },
       "CSCO": {
         "name": "Cisco Systems, Inc.",
         "sector": "Technology",
-        "marketCap": 457166979072,
+        "marketCap": 456654618624,
         "currency": "USD",
         "changes": {
-          "1d": 2.14,
-          "1w": 1.24,
-          "1mo": -0.5,
-          "3mo": 26.75,
-          "ytd": 53.94,
-          "1y": 76.41
+          "1d": -0.11,
+          "1w": 0.24,
+          "1mo": 1.65,
+          "3mo": 25.55,
+          "ytd": 53.77,
+          "1y": 72.67
         }
       },
       "IBM": {
         "name": "International Business Machines",
         "sector": "Technology",
-        "marketCap": 210708348928,
+        "marketCap": 213214429184,
         "currency": "USD",
         "changes": {
-          "1d": 0.86,
-          "1w": 3.41,
-          "1mo": -21.87,
-          "3mo": -2.97,
-          "ytd": -22.27,
-          "1y": -8.27
+          "1d": 1.19,
+          "1w": -0.54,
+          "1mo": -24.44,
+          "3mo": -0.66,
+          "ytd": -21.35,
+          "1y": -7.89
         }
       },
       "TXN": {
         "name": "Texas Instruments Incorporated",
         "sector": "Technology",
-        "marketCap": 251818901504,
+        "marketCap": 245700165632,
         "currency": "USD",
         "changes": {
-          "1d": -1.08,
-          "1w": -1.31,
-          "1mo": -7.6,
-          "3mo": -1.38,
-          "ytd": 57.14,
-          "1y": NaN
+          "1d": -2.43,
+          "1w": -2.4,
+          "1mo": -10.9,
+          "3mo": -3.24,
+          "ytd": 54.1,
+          "1y": 51.05
         }
       },
       "NEE": {
         "name": "NextEra Energy, Inc.",
         "sector": "Utilities",
-        "marketCap": 181313224704,
+        "marketCap": 180509147136,
         "currency": "USD",
         "changes": {
-          "1d": -1.15,
-          "1w": -2.15,
-          "1mo": 0.64,
-          "3mo": -9.69,
-          "ytd": 8.93,
-          "1y": 27.04
+          "1d": -0.43,
+          "1w": -3.06,
+          "1mo": -1.02,
+          "3mo": -8.72,
+          "ytd": 8.46,
+          "1y": 26.27
         }
       },
       "PM": {
         "name": "Philip Morris International Inc",
         "sector": "Cons. Defensive",
-        "marketCap": 297414623232,
+        "marketCap": 292099751936,
         "currency": "USD",
         "changes": {
-          "1d": -0.61,
-          "1w": -2.47,
-          "1mo": 7.39,
-          "3mo": 15.64,
-          "ytd": 21.1,
-          "1y": 21.34
+          "1d": -1.79,
+          "1w": -6.37,
+          "1mo": 1.43,
+          "3mo": 11.69,
+          "ytd": 18.93,
+          "1y": 19.15
         }
       },
       "GE": {
         "name": "GE Aerospace",
         "sector": "Industrials",
-        "marketCap": 373595144192,
+        "marketCap": 382787911680,
         "currency": "USD",
         "changes": {
-          "1d": 1.42,
-          "1w": -0.43,
-          "1mo": -3.85,
-          "3mo": 25.83,
-          "ytd": 12.56,
-          "1y": 34.34
+          "1d": 2.46,
+          "1w": 1.47,
+          "1mo": -2.57,
+          "3mo": 31.68,
+          "ytd": 15.33,
+          "1y": 34.24
         }
       },
       "RTX": {
         "name": "RTX Corporation",
         "sector": "Industrials",
-        "marketCap": 290064498688,
+        "marketCap": 291991781376,
         "currency": "USD",
         "changes": {
-          "1d": 0.39,
-          "1w": -1.47,
-          "1mo": 12.22,
-          "3mo": 24.21,
-          "ytd": 15.8,
-          "1y": 39.44
+          "1d": 0.66,
+          "1w": -0.88,
+          "1mo": 7.59,
+          "3mo": 25.83,
+          "ytd": 16.57,
+          "1y": 39.85
         }
       },
       "HON": {
         "name": "Honeywell International Inc.",
         "sector": "Industrials",
-        "marketCap": 77032267776,
+        "marketCap": 78211284992,
         "currency": "USD",
         "changes": {
-          "1d": 0.47,
-          "1w": -1.1,
-          "1mo": 9.61,
-          "3mo": 9.66,
-          "ytd": 19.55,
-          "1y": 15.41
+          "1d": 1.53,
+          "1w": -0.11,
+          "1mo": 6.74,
+          "3mo": 12.88,
+          "ytd": 21.38,
+          "1y": 15.54
         }
       },
       "INTC": {
         "name": "Intel Corporation",
         "sector": "Technology",
-        "marketCap": 454968770560,
+        "marketCap": 459003985920,
         "currency": "USD",
         "changes": {
-          "1d": -1.02,
-          "1w": -1.6,
-          "1mo": -28.99,
-          "3mo": -9.46,
-          "ytd": 129.05,
-          "1y": 367.12
+          "1d": 0.89,
+          "1w": 5.45,
+          "1mo": -25.53,
+          "3mo": -4.99,
+          "ytd": 131.08,
+          "1y": 366.67
         }
       },
       "AMGN": {
         "name": "Amgen Inc.",
         "sector": "Healthcare",
-        "marketCap": 207874048000,
+        "marketCap": 204479283200,
         "currency": "USD",
         "changes": {
-          "1d": -0.64,
-          "1w": 2.37,
-          "1mo": 6.6,
-          "3mo": 17.66,
-          "ytd": 19.26,
-          "1y": 33.64
+          "1d": -1.63,
+          "1w": -3.62,
+          "1mo": 3.39,
+          "3mo": 17.87,
+          "ytd": 17.32,
+          "1y": 29.25
         }
       },
       "INTU": {
         "name": "Intuit Inc.",
         "sector": "Technology",
-        "marketCap": 86456836096,
+        "marketCap": 87091445760,
         "currency": "USD",
         "changes": {
-          "1d": 0.18,
-          "1w": 4.0,
-          "1mo": 18.87,
-          "3mo": -20.44,
-          "ytd": -49.32,
-          "1y": -58.82
+          "1d": 0.73,
+          "1w": 1.73,
+          "1mo": 17.51,
+          "3mo": -21.42,
+          "ytd": -48.94,
+          "1y": -58.98
         }
       },
       "UNP": {
         "name": "Union Pacific Corporation",
         "sector": "Industrials",
-        "marketCap": 173547290624,
+        "marketCap": 173012615168,
         "currency": "USD",
         "changes": {
-          "1d": 0.92,
-          "1w": -2.4,
-          "1mo": 5.18,
-          "3mo": 10.26,
-          "ytd": 27.28,
-          "1y": 36.17
+          "1d": -0.31,
+          "1w": -1.09,
+          "1mo": 3.06,
+          "3mo": 11.14,
+          "ytd": 26.89,
+          "1y": 34.13
         }
       },
       "LOW": {
         "name": "Lowe's Companies, Inc.",
         "sector": "Cons. Cyclical",
-        "marketCap": null,
+        "marketCap": 118965657600,
         "currency": "USD",
         "changes": {
-          "1d": -1.08,
-          "1w": -1.77,
-          "1mo": -5.78,
-          "3mo": -10.39,
-          "ytd": -14.52,
-          "1y": -6.33
+          "1d": 2.05,
+          "1w": -2.83,
+          "1mo": -4.65,
+          "3mo": -4.63,
+          "ytd": -12.77,
+          "1y": -7.44
         }
       },
       "MDT": {
         "name": "Medtronic plc.",
         "sector": "Healthcare",
-        "marketCap": null,
+        "marketCap": 110954315776,
         "currency": "USD",
         "changes": {
-          "1d": -0.37,
-          "1w": 1.39,
-          "1mo": 7.82,
-          "3mo": 7.7,
-          "ytd": -9.56,
-          "1y": -1.31
+          "1d": 1.51,
+          "1w": -0.23,
+          "1mo": 4.36,
+          "3mo": 11.7,
+          "ytd": -8.2,
+          "1y": -0.16
         }
       }
     },
@@ -707,7 +707,7 @@
       "SHEL.L": {
         "name": "SHELL PLC ORD EUR0.07",
         "sector": "Energy",
-        "marketCap": 187229257728,
+        "marketCap": 188446654464,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -721,7 +721,7 @@
       "AZN.L": {
         "name": "ASTRAZENECA PLC ORD SHS $0.25",
         "sector": "Healthcare",
-        "marketCap": 195906781184,
+        "marketCap": 178350850048,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -735,7 +735,7 @@
       "HSBA.L": {
         "name": "HSBC HOLDINGS PLC ORD $0.50 (UK",
         "sector": "Financials",
-        "marketCap": 270255783936,
+        "marketCap": 273925505024,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -749,7 +749,7 @@
       "ULVR.L": {
         "name": "UNILEVER PLC ORD 3.5P",
         "sector": "Cons. Defensive",
-        "marketCap": 102131015680,
+        "marketCap": 102712410112,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -763,7 +763,7 @@
       "BP.L": {
         "name": "BP PLC $0.25",
         "sector": "Energy",
-        "marketCap": 85365571584,
+        "marketCap": 85303762944,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -777,7 +777,7 @@
       "RIO.L": {
         "name": "RIO TINTO PLC ORD 10P",
         "sector": "Materials",
-        "marketCap": 116667334656,
+        "marketCap": 115285024768,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -791,7 +791,7 @@
       "GSK.L": {
         "name": "GSK PLC ORD 31 1/4P",
         "sector": "Healthcare",
-        "marketCap": 77393125376,
+        "marketCap": 76487147520,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -805,7 +805,7 @@
       "DGE.L": {
         "name": "DIAGEO PLC ORD 28 101/108P",
         "sector": "Cons. Defensive",
-        "marketCap": 36344492032,
+        "marketCap": 36811444224,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -819,7 +819,7 @@
       "LSEG.L": {
         "name": "LONDON STOCK EXCHANGE GROUP PLC",
         "sector": "Financials",
-        "marketCap": 40890695680,
+        "marketCap": 41338654720,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -833,7 +833,7 @@
       "NG.L": {
         "name": "NATIONAL GRID PLC ORD 12 204/47",
         "sector": "Utilities",
-        "marketCap": 59818827776,
+        "marketCap": 59768565760,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -845,9 +845,9 @@
         }
       },
       "BARC.L": {
-        "name": "BARC.L",
+        "name": "BARCLAYS PLC ORD 25P",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 69456568320,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -861,7 +861,7 @@
       "LLOY.L": {
         "name": "LLOYDS BANKING GROUP PLC ORD 10",
         "sector": "Financials",
-        "marketCap": 66584031232,
+        "marketCap": 67686998016,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -875,10 +875,10 @@
       "CPG.L": {
         "name": "COMPASS GROUP PLC ORD 11 1/20P",
         "sector": "Cons. Cyclical",
-        "marketCap": 53916930048,
+        "marketCap": 54614056960,
         "currency": "USD",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -889,7 +889,7 @@
       "REL.L": {
         "name": "RELX PLC ORD 14 51/116P",
         "sector": "Industrials",
-        "marketCap": 45513650176,
+        "marketCap": 46248751104,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -903,7 +903,7 @@
       "NWG.L": {
         "name": "NATWEST GROUP PLC ORD 107.69P",
         "sector": "Financials",
-        "marketCap": 56134987776,
+        "marketCap": 57556094976,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -917,7 +917,7 @@
       "PRU.L": {
         "name": "PRUDENTIAL PLC ORD 5P",
         "sector": "Financials",
-        "marketCap": 27761272832,
+        "marketCap": 27587110912,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -931,10 +931,10 @@
       "VOD.L": {
         "name": "VODAFONE GROUP PLC ORD USD0.20 ",
         "sector": "Comm. Services",
-        "marketCap": 27139031040,
+        "marketCap": 27000860672,
         "currency": "GBp",
         "changes": {
-          "1d": null,
+          "1d": NaN,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -945,7 +945,7 @@
       "AAL.L": {
         "name": "ANGLO AMERICAN PLC ORD USD0.623",
         "sector": "Materials",
-        "marketCap": 39998644224,
+        "marketCap": 39698628608,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -959,7 +959,7 @@
       "ANTO.L": {
         "name": "ANTOFAGASTA PLC ORD 5P",
         "sector": "Materials",
-        "marketCap": 36033064960,
+        "marketCap": 36269666304,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -973,7 +973,7 @@
       "WPP.L": {
         "name": "WPP PLC ORD 10P",
         "sector": "Comm. Services",
-        "marketCap": 3221552896,
+        "marketCap": 3281950208,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -987,7 +987,7 @@
       "IMB.L": {
         "name": "IMPERIAL BRANDS PLC ORD 10P",
         "sector": "Cons. Defensive",
-        "marketCap": 21558814720,
+        "marketCap": 21222225920,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1001,7 +1001,7 @@
       "ABF.L": {
         "name": "ASSOCIATED BRITISH FOODS PLC OR",
         "sector": "Cons. Defensive",
-        "marketCap": 14602809344,
+        "marketCap": 14854702080,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1015,7 +1015,7 @@
       "BATS.L": {
         "name": "BRITISH AMERICAN TOBACCO PLC OR",
         "sector": "Cons. Defensive",
-        "marketCap": 98571501568,
+        "marketCap": 96328302592,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1029,7 +1029,7 @@
       "BT-A.L": {
         "name": "BT GROUP PLC ORD 5P",
         "sector": "Comm. Services",
-        "marketCap": 19835338752,
+        "marketCap": 20012703744,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1043,7 +1043,7 @@
       "EXPN.L": {
         "name": "EXPERIAN PLC ORD USD0.10",
         "sector": "Industrials",
-        "marketCap": 24660017152,
+        "marketCap": 24845627392,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1057,7 +1057,7 @@
       "LAND.L": {
         "name": "LAND SECURITIES GROUP PLC ORD 1",
         "sector": "Real Estate",
-        "marketCap": 5256306176,
+        "marketCap": 5312184832,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1071,7 +1071,7 @@
       "SGE.L": {
         "name": "THE SAGE GROUP PLC ORD 1 4/77P",
         "sector": "Technology",
-        "marketCap": 8734802944,
+        "marketCap": 8969957376,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1085,7 +1085,7 @@
       "SMT.L": {
         "name": "SCOTTISH MORTGAGE INVESTMENT TR",
         "sector": "",
-        "marketCap": 14292520960,
+        "marketCap": 14453654528,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1099,7 +1099,7 @@
       "SSE.L": {
         "name": "SSE PLC ORD 50P",
         "sector": "Utilities",
-        "marketCap": 28299644928,
+        "marketCap": 28420276224,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1113,7 +1113,7 @@
       "SVT.L": {
         "name": "SEVERN TRENT PLC ORD 97 17/19P",
         "sector": "Utilities",
-        "marketCap": 9108236288,
+        "marketCap": 9162559488,
         "currency": "GBp",
         "changes": {
           "1d": NaN,
@@ -1129,281 +1129,281 @@
       "600519.SS": {
         "name": "KWEICHOW MOUTAI",
         "sector": "Cons. Defensive",
-        "marketCap": null,
+        "marketCap": 1698835988480,
         "currency": "CNY",
         "changes": {
-          "1d": -0.82,
-          "1w": 4.74,
-          "1mo": 13.93,
-          "3mo": -0.16,
-          "ytd": -3.05,
-          "1y": -1.09
+          "1d": 0.62,
+          "1w": 2.95,
+          "1mo": 13.77,
+          "3mo": 1.17,
+          "ytd": -2.44,
+          "1y": -0.29
         }
       },
       "601398.SS": {
         "name": "INDUSTRIAL & COMMERCIAL BK OF C",
         "sector": "Financials",
-        "marketCap": 2847686000640,
+        "marketCap": 2836993933312,
         "currency": "CNY",
         "changes": {
-          "1d": -1.96,
-          "1w": 3.36,
-          "1mo": 13.01,
-          "3mo": 9.73,
-          "ytd": 4.53,
-          "1y": 10.08
+          "1d": -0.38,
+          "1w": -0.13,
+          "1mo": 13.07,
+          "3mo": 10.65,
+          "ytd": 4.14,
+          "1y": 7.96
         }
       },
       "601288.SS": {
         "name": "AGRICULTURAL BANK OF CHINA",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 2411383226368,
         "currency": "CNY",
         "changes": {
-          "1d": -2.95,
-          "1w": 2.68,
-          "1mo": 13.67,
-          "3mo": 1.66,
-          "ytd": -7.07,
-          "1y": 13.42
+          "1d": -0.14,
+          "1w": -1.01,
+          "1mo": 16.78,
+          "3mo": 2.4,
+          "ytd": -7.2,
+          "1y": 11.66
         }
       },
       "601939.SS": {
         "name": "CHINA CONSTRUCTION BANK",
         "sector": "Financials",
-        "marketCap": 2838364160000,
+        "marketCap": 2733723877376,
         "currency": "CNY",
         "changes": {
-          "1d": -1.09,
-          "1w": 4.73,
-          "1mo": 15.0,
-          "3mo": 11.3,
-          "ytd": 19.72,
-          "1y": 20.11
+          "1d": -3.69,
+          "1w": -1.79,
+          "1mo": 12.39,
+          "3mo": 8.83,
+          "ytd": 15.31,
+          "1y": 13.99
         }
       },
       "601628.SS": {
         "name": "CHINA LIFE INSURANCE CO LTD",
         "sector": "Financials",
-        "marketCap": 1117021143040,
+        "marketCap": 1088473726976,
         "currency": "CNY",
         "changes": {
-          "1d": -0.55,
-          "1w": -0.53,
-          "1mo": 13.67,
-          "3mo": 9.58,
-          "ytd": -16.76,
-          "1y": -1.25
+          "1d": -2.56,
+          "1w": -4.2,
+          "1mo": 1.28,
+          "3mo": 6.81,
+          "ytd": -18.88,
+          "1y": -3.35
         }
       },
       "600036.SS": {
         "name": "CHINA MERCHANTS BANK CO LTD",
         "sector": "Financials",
-        "marketCap": 999210287104,
+        "marketCap": 1017872973824,
         "currency": "CNY",
         "changes": {
-          "1d": -2.29,
-          "1w": 1.59,
-          "1mo": 14.67,
-          "3mo": 6.37,
-          "ytd": -1.39,
-          "1y": -6.11
+          "1d": 1.87,
+          "1w": 1.94,
+          "1mo": 12.59,
+          "3mo": 9.13,
+          "ytd": 0.45,
+          "1y": -5.25
         }
       },
       "601166.SS": {
         "name": "INDUSTRIAL BANK CO LTD",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 404210614272,
         "currency": "CNY",
         "changes": {
-          "1d": -1.05,
-          "1w": 3.28,
-          "1mo": 14.13,
-          "3mo": 8.3,
-          "ytd": -4.98,
-          "1y": -11.66
+          "1d": 1.06,
+          "1w": 2.69,
+          "1mo": 12.29,
+          "3mo": 10.3,
+          "ytd": -3.98,
+          "1y": -11.27
         }
       },
       "600900.SS": {
         "name": "CHINA YANGTZE POWER CO",
         "sector": "Utilities",
-        "marketCap": 711780466688,
+        "marketCap": 710801686528,
         "currency": "CNY",
         "changes": {
-          "1d": -1.36,
-          "1w": 2.61,
-          "1mo": 13.06,
-          "3mo": 9.54,
-          "ytd": 10.58,
-          "1y": 8.36
+          "1d": -0.14,
+          "1w": -0.07,
+          "1mo": 10.48,
+          "3mo": 9.88,
+          "ytd": 10.43,
+          "1y": 7.05
         }
       },
       "601088.SS": {
         "name": "CHINA SHENHUA ENERGY COMPANY LT",
         "sector": "Energy",
-        "marketCap": 990990237696,
+        "marketCap": 948478935040,
         "currency": "CNY",
         "changes": {
-          "1d": -0.02,
-          "1w": 1.92,
-          "1mo": 19.97,
-          "3mo": -2.42,
-          "ytd": 16.34,
-          "1y": 25.55
+          "1d": -4.29,
+          "1w": -3.76,
+          "1mo": 10.14,
+          "3mo": -6.08,
+          "ytd": 11.35,
+          "1y": 22.09
         }
       },
       "601857.SS": {
         "name": "PETROCHINA CO",
         "sector": "Energy",
-        "marketCap": 2027872452608,
+        "marketCap": 2022381846528,
         "currency": "CNY",
         "changes": {
-          "1d": -1.69,
-          "1w": 1.65,
-          "1mo": 27.65,
-          "3mo": -6.76,
-          "ytd": 13.15,
-          "1y": 31.82
+          "1d": -0.27,
+          "1w": -0.45,
+          "1mo": 23.19,
+          "3mo": -4.43,
+          "ytd": 12.85,
+          "1y": 37.67
         }
       },
       "000858.SZ": {
         "name": "WULIANGYE",
         "sector": "Cons. Defensive",
-        "marketCap": 302765408256,
+        "marketCap": 302998290432,
         "currency": "CNY",
         "changes": {
-          "1d": -0.71,
-          "1w": 5.55,
-          "1mo": 9.09,
-          "3mo": -16.85,
-          "ytd": -25.18,
-          "1y": -31.82
+          "1d": 0.08,
+          "1w": 4.36,
+          "1mo": 10.35,
+          "3mo": -12.43,
+          "ytd": -25.13,
+          "1y": -31.63
         }
       },
       "000333.SZ": {
         "name": "MIDEA GROUP",
         "sector": "Cons. Cyclical",
-        "marketCap": 668057075712,
+        "marketCap": 655092547584,
         "currency": "CNY",
         "changes": {
-          "1d": -1.52,
-          "1w": 4.12,
-          "1mo": 15.98,
-          "3mo": 13.51,
-          "ytd": 17.0,
-          "1y": 31.99
+          "1d": -1.94,
+          "1w": 0.62,
+          "1mo": 10.18,
+          "3mo": 12.22,
+          "ytd": 14.73,
+          "1y": 28.06
         }
       },
       "002594.SZ": {
         "name": "BYD",
         "sector": "Cons. Cyclical",
-        "marketCap": 873153953792,
+        "marketCap": 861119250432,
         "currency": "CNY",
         "changes": {
-          "1d": -0.08,
-          "1w": 4.03,
-          "1mo": 20.61,
-          "3mo": -6.65,
-          "ytd": -2.02,
-          "1y": -8.66
+          "1d": -1.38,
+          "1w": 1.56,
+          "1mo": 7.16,
+          "3mo": -5.9,
+          "ytd": -3.37,
+          "1y": -9.61
         }
       },
       "300750.SZ": {
         "name": "CATL",
         "sector": "Industrials",
-        "marketCap": 1828916559872,
+        "marketCap": 1824752533504,
         "currency": "CNY",
         "changes": {
-          "1d": -1.64,
-          "1w": -1.18,
-          "1mo": 0.58,
-          "3mo": -9.33,
-          "ytd": 6.37,
-          "1y": 52.29
+          "1d": -0.23,
+          "1w": 0.91,
+          "1mo": 3.79,
+          "3mo": -14.26,
+          "ytd": 6.13,
+          "1y": 50.89
         }
       },
       "000725.SZ": {
         "name": "BOE",
         "sector": "Technology",
-        "marketCap": 204114247680,
+        "marketCap": 200780251136,
         "currency": "CNY",
         "changes": {
-          "1d": 2.8,
-          "1w": -7.71,
-          "1mo": -36.52,
-          "3mo": 36.19,
-          "ytd": 31.36,
-          "1y": 37.53
+          "1d": -1.63,
+          "1w": -2.87,
+          "1mo": -35.32,
+          "3mo": 30.76,
+          "ytd": 29.21,
+          "1y": 35.96
         }
       },
       "601318.SS": {
         "name": "PING AN INSURANCE(GROUP)CO.OF C",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 1005879492608,
         "currency": "CNY",
         "changes": {
-          "1d": -1.61,
-          "1w": 2.79,
-          "1mo": 15.0,
-          "3mo": -4.43,
-          "ytd": -21.58,
-          "1y": -1.73
+          "1d": 1.18,
+          "1w": 2.49,
+          "1mo": 13.16,
+          "3mo": -3.28,
+          "ytd": -20.66,
+          "1y": 0.25
         }
       },
       "600276.SS": {
         "name": "JIANGSU HENGRUI PHARMACEUTICALS",
         "sector": "Healthcare",
-        "marketCap": 358939787264,
+        "marketCap": 351771590656,
         "currency": "CNY",
         "changes": {
-          "1d": -1.04,
-          "1w": 0.9,
-          "1mo": 3.92,
-          "3mo": 0.78,
-          "ytd": -13.92,
-          "1y": -13.67
+          "1d": -2.0,
+          "1w": -0.54,
+          "1mo": -2.66,
+          "3mo": -0.77,
+          "ytd": -15.64,
+          "1y": -14.17
         }
       },
       "600887.SS": {
         "name": "INNER MONGOLIA YILI INDS. GP CO",
         "sector": "Cons. Defensive",
-        "marketCap": 171417272320,
+        "marketCap": 171543789568,
         "currency": "CNY",
         "changes": {
-          "1d": -2.13,
-          "1w": 3.99,
-          "1mo": 13.11,
-          "3mo": 2.15,
-          "ytd": -1.96,
-          "1y": 4.06
+          "1d": 0.07,
+          "1w": 2.03,
+          "1mo": 10.24,
+          "3mo": 2.26,
+          "ytd": -1.88,
+          "1y": 3.87
         }
       },
       "603288.SS": {
         "name": "FOSHAN HAITIAN FLAVOURING AND F",
         "sector": "Cons. Defensive",
-        "marketCap": 224944144384,
+        "marketCap": 222486396928,
         "currency": "CNY",
         "changes": {
-          "1d": -0.57,
-          "1w": 6.72,
-          "1mo": 15.92,
-          "3mo": 1.77,
-          "ytd": 4.5,
-          "1y": 4.05
+          "1d": -1.09,
+          "1w": 2.73,
+          "1mo": 11.79,
+          "3mo": 0.4,
+          "ytd": 3.36,
+          "1y": 3.15
         }
       },
       "601012.SS": {
         "name": "LONGI GREEN ENERGY TECHNOLOGY C",
         "sector": "Technology",
-        "marketCap": 98439110656,
+        "marketCap": 100636753920,
         "currency": "CNY",
         "changes": {
-          "1d": -0.23,
-          "1w": 2.77,
-          "1mo": -0.99,
-          "3mo": -21.08,
-          "ytd": -29.75,
-          "1y": -17.58
+          "1d": 2.23,
+          "1w": 4.73,
+          "1mo": 5.82,
+          "3mo": -19.76,
+          "ytd": -28.18,
+          "1y": -15.84
         }
       }
     },
@@ -1411,99 +1411,99 @@
       "7203.T": {
         "name": "TOYOTA MOTOR CORP",
         "sector": "Cons. Cyclical",
-        "marketCap": 36316507013120,
+        "marketCap": 35090958647296,
         "currency": "JPY",
         "changes": {
-          "1d": -1.89,
-          "1w": 3.42,
-          "1mo": 12.55,
-          "3mo": 1.46,
-          "ytd": -8.42,
-          "1y": 17.21
+          "1d": null,
+          "1w": -8.08,
+          "1mo": 1.39,
+          "3mo": -0.49,
+          "ytd": -11.51,
+          "1y": 14.16
         }
       },
       "6758.T": {
         "name": "SONY GROUP CORPORATION",
         "sector": "Technology",
-        "marketCap": 22239013502976,
+        "marketCap": 21076266450944,
         "currency": "JPY",
         "changes": {
-          "1d": -0.58,
-          "1w": 5.96,
-          "1mo": 15.46,
-          "3mo": 21.65,
-          "ytd": -6.8,
-          "1y": 3.56
+          "1d": null,
+          "1w": -5.78,
+          "1mo": 4.88,
+          "3mo": 14.66,
+          "ytd": -11.67,
+          "1y": -0.09
         }
       },
       "8306.T": {
         "name": "MITSUBISHI UFJ FINANCIAL GROUP ",
         "sector": "Financials",
-        "marketCap": 40269714030592,
+        "marketCap": 40224604291072,
         "currency": "JPY",
         "changes": {
-          "1d": 1.3,
-          "1w": -6.0,
-          "1mo": 11.35,
-          "3mo": 26.77,
-          "ytd": 43.0,
-          "1y": 75.0
+          "1d": null,
+          "1w": -2.19,
+          "1mo": 5.85,
+          "3mo": 24.59,
+          "ytd": 42.84,
+          "1y": 80.23
         }
       },
       "9432.T": {
         "name": "NTT INC",
         "sector": "Comm. Services",
-        "marketCap": 12408959533056,
+        "marketCap": 12417102774272,
         "currency": "JPY",
         "changes": {
-          "1d": -4.15,
-          "1w": -1.23,
-          "1mo": 5.1,
-          "3mo": -0.07,
-          "ytd": -2.83,
-          "1y": 3.21
+          "1d": null,
+          "1w": -4.87,
+          "1mo": 3.74,
+          "3mo": 1.13,
+          "ytd": -2.77,
+          "1y": 3.01
         }
       },
       "6861.T": {
         "name": "KEYENCE CORP",
         "sector": "Technology",
-        "marketCap": 19680913784832,
+        "marketCap": 19549950836736,
         "currency": "JPY",
         "changes": {
-          "1d": 2.76,
-          "1w": 9.41,
-          "1mo": 0.11,
-          "3mo": 13.81,
-          "ytd": 42.58,
-          "1y": 48.42
+          "1d": null,
+          "1w": 3.89,
+          "1mo": -0.37,
+          "3mo": 1.59,
+          "ytd": 41.63,
+          "1y": 43.3
         }
       },
       "8035.T": {
         "name": "TOKYO ELECTRON",
         "sector": "Technology",
-        "marketCap": 25233142579200,
+        "marketCap": 25001268871168,
         "currency": "JPY",
         "changes": {
-          "1d": 6.24,
-          "1w": -11.62,
-          "1mo": -28.06,
-          "3mo": 25.03,
-          "ytd": 51.69,
-          "1y": 107.03
+          "1d": null,
+          "1w": 9.98,
+          "1mo": -23.96,
+          "3mo": 6.32,
+          "ytd": 50.3,
+          "1y": 149.33
         }
       },
       "9984.T": {
         "name": "SOFTBANK GROUP CORP",
         "sector": "Comm. Services",
-        "marketCap": 29976338366464,
+        "marketCap": 30734295236608,
         "currency": "JPY",
         "changes": {
-          "1d": 13.8,
-          "1w": -1.33,
-          "1mo": -11.79,
-          "3mo": 0.79,
-          "ytd": 14.14,
-          "1y": 78.61
+          "1d": null,
+          "1w": 13.75,
+          "1mo": -9.8,
+          "3mo": -16.05,
+          "ytd": 17.02,
+          "1y": 86.76
         }
       },
       "6367.T": {
@@ -1512,180 +1512,180 @@
         "marketCap": 6483840335872,
         "currency": "JPY",
         "changes": {
-          "1d": -1.46,
-          "1w": -3.48,
-          "1mo": -5.63,
-          "3mo": 6.06,
+          "1d": null,
+          "1w": -2.33,
+          "1mo": -10.92,
+          "3mo": -6.07,
           "ytd": 16.08,
-          "1y": 27.41
+          "1y": 27.52
         }
       },
       "7974.T": {
         "name": "NINTENDO CO LTD",
         "sector": "Comm. Services",
-        "marketCap": 8852913258496,
+        "marketCap": 8749155090432,
         "currency": "JPY",
         "changes": {
-          "1d": -5.72,
-          "1w": 3.34,
-          "1mo": 12.68,
-          "3mo": -0.1,
-          "ytd": -26.48,
-          "1y": -38.1
+          "1d": null,
+          "1w": -4.97,
+          "1mo": 7.91,
+          "3mo": 2.5,
+          "ytd": -27.35,
+          "1y": -41.37
         }
       },
       "8316.T": {
         "name": "SUMITOMO MITSUI FINANCIAL GROUP",
         "sector": "Financials",
-        "marketCap": 25974972350464,
+        "marketCap": 25212573712384,
         "currency": "JPY",
         "changes": {
-          "1d": 2.22,
-          "1w": -5.54,
-          "1mo": 7.37,
-          "3mo": 23.62,
-          "ytd": 33.48,
-          "1y": 82.82
+          "1d": null,
+          "1w": -3.81,
+          "1mo": -2.74,
+          "3mo": 16.26,
+          "ytd": 29.56,
+          "1y": 84.19
         }
       },
       "4519.T": {
         "name": "CHUGAI PHARMACEUTICAL CO",
         "sector": "Healthcare",
-        "marketCap": 11408429285376,
+        "marketCap": 11005217210368,
         "currency": "JPY",
         "changes": {
-          "1d": -1.97,
-          "1w": 1.23,
-          "1mo": -7.99,
-          "3mo": -13.82,
-          "ytd": -17.87,
-          "1y": -3.28
+          "1d": null,
+          "1w": -5.4,
+          "1mo": -11.32,
+          "3mo": -16.65,
+          "ytd": -20.77,
+          "1y": -5.97
         }
       },
       "6501.T": {
         "name": "HITACHI",
         "sector": "Industrials",
-        "marketCap": 23619405086720,
+        "marketCap": 23771876425728,
         "currency": "JPY",
         "changes": {
-          "1d": 0.23,
-          "1w": 4.86,
-          "1mo": 17.8,
-          "3mo": 7.89,
-          "ytd": 4.53,
-          "1y": 13.44
+          "1d": null,
+          "1w": 6.94,
+          "1mo": 10.32,
+          "3mo": 9.3,
+          "ytd": 5.2,
+          "1y": 29.38
         }
       },
       "9433.T": {
         "name": "KDDI CORPORATION",
         "sector": "Comm. Services",
-        "marketCap": 11121236901888,
+        "marketCap": 11052705120256,
         "currency": "JPY",
         "changes": {
-          "1d": -4.26,
-          "1w": -1.08,
-          "1mo": 6.41,
-          "3mo": 13.11,
-          "ytd": 8.45,
-          "1y": 21.26
+          "1d": null,
+          "1w": -6.6,
+          "1mo": 6.05,
+          "3mo": 14.97,
+          "ytd": 7.78,
+          "1y": 23.47
         }
       },
       "8411.T": {
         "name": "MIZUHO FINANCIAL GROUP",
         "sector": "Financials",
-        "marketCap": 19898392641536,
+        "marketCap": 19720533180416,
         "currency": "JPY",
         "changes": {
-          "1d": 4.46,
-          "1w": -5.38,
-          "1mo": 5.48,
-          "3mo": 21.5,
-          "ytd": 40.63,
-          "1y": 86.98
+          "1d": null,
+          "1w": -0.22,
+          "1mo": -1.23,
+          "3mo": 16.86,
+          "ytd": 39.38,
+          "1y": 93.24
         }
       },
       "7267.T": {
         "name": "HONDA MOTOR CO",
         "sector": "Cons. Cyclical",
-        "marketCap": 6327389126656,
+        "marketCap": 6099673546752,
         "currency": "JPY",
         "changes": {
-          "1d": -2.66,
-          "1w": 2.68,
-          "1mo": 9.83,
-          "3mo": 28.35,
-          "ytd": 7.13,
-          "1y": 8.69
+          "1d": null,
+          "1w": -7.2,
+          "1mo": -2.0,
+          "3mo": 24.41,
+          "ytd": 3.28,
+          "1y": 6.09
         }
       },
       "6954.T": {
         "name": "FANUC CORPORATION",
         "sector": "Industrials",
-        "marketCap": 6658082209792,
+        "marketCap": 5705327706112,
         "currency": "JPY",
         "changes": {
-          "1d": 7.71,
-          "1w": 5.16,
-          "1mo": -2.99,
-          "3mo": 3.78,
-          "ytd": 14.29,
-          "1y": 70.73
+          "1d": null,
+          "1w": -5.4,
+          "1mo": -18.23,
+          "3mo": -13.83,
+          "ytd": -2.06,
+          "1y": 42.83
         }
       },
       "4063.T": {
         "name": "SHIN-ETSU CHEMICAL CO",
         "sector": "Materials",
-        "marketCap": 10786229452800,
+        "marketCap": 10869915254784,
         "currency": "JPY",
         "changes": {
-          "1d": 0.76,
-          "1w": -5.63,
-          "1mo": -17.24,
-          "3mo": -19.96,
-          "ytd": 18.34,
-          "1y": 34.6
+          "1d": null,
+          "1w": 2.72,
+          "1mo": -21.17,
+          "3mo": -24.2,
+          "ytd": 19.25,
+          "1y": 37.18
         }
       },
       "8766.T": {
         "name": "TOKIO MARINE HOLDINGS INC",
         "sector": "Financials",
-        "marketCap": 15414724657152,
+        "marketCap": 14979676766208,
         "currency": "JPY",
         "changes": {
-          "1d": -1.07,
-          "1w": -1.56,
-          "1mo": 12.66,
-          "3mo": 12.66,
-          "ytd": 39.36,
-          "1y": 36.81
+          "1d": null,
+          "1w": -6.05,
+          "1mo": 0.96,
+          "3mo": 9.36,
+          "ytd": 35.42,
+          "1y": 34.95
         }
       },
       "6098.T": {
         "name": "RECRUIT HOLDINGS CO LTD",
         "sector": "Comm. Services",
-        "marketCap": 17471750799360,
+        "marketCap": 17242042400768,
         "currency": "JPY",
         "changes": {
-          "1d": -2.83,
-          "1w": 0.32,
-          "1mo": 10.77,
-          "3mo": 71.85,
-          "ytd": 39.4,
-          "1y": 39.12
+          "1d": null,
+          "1w": -5.46,
+          "1mo": 4.12,
+          "3mo": 65.69,
+          "ytd": 37.57,
+          "1y": 44.86
         }
       },
       "7741.T": {
         "name": "HOYA CORP",
         "sector": "Healthcare",
-        "marketCap": 8254243995648,
+        "marketCap": 8449937113088,
         "currency": "JPY",
         "changes": {
-          "1d": 3.5,
-          "1w": -0.2,
-          "1mo": -4.91,
-          "3mo": -15.21,
-          "ytd": 2.94,
-          "1y": 30.25
+          "1d": null,
+          "1w": 6.29,
+          "1mo": -1.23,
+          "3mo": -8.18,
+          "ytd": 5.38,
+          "1y": 41.57
         }
       }
     },
@@ -1693,281 +1693,281 @@
       "005930.KS": {
         "name": "SamsungElec",
         "sector": "Technology",
-        "marketCap": 1723722847223808,
+        "marketCap": 1572691932872704,
         "currency": "KRW",
         "changes": {
-          "1d": 26.81,
-          "1w": 3.35,
-          "1mo": -21.41,
-          "3mo": 19.18,
-          "ytd": 104.93,
-          "1y": 272.26
+          "1d": null,
+          "1w": 14.87,
+          "1mo": -24.69,
+          "3mo": 3.12,
+          "ytd": 86.97,
+          "1y": 247.93
         }
       },
       "000660.KS": {
         "name": "SK hynix",
         "sector": "Technology",
-        "marketCap": 1219530730766336,
+        "marketCap": 1112342641246208,
         "currency": "KRW",
         "changes": {
-          "1d": 29.95,
-          "1w": -5.4,
-          "1mo": -35.17,
-          "3mo": 33.61,
-          "ytd": 154.28,
-          "1y": 530.78
+          "1d": null,
+          "1w": 11.85,
+          "1mo": -33.12,
+          "3mo": 8.31,
+          "ytd": 131.93,
+          "1y": 509.9
         }
       },
       "207940.KS": {
         "name": "SAMSUNG BIOLOGICS",
         "sector": "Healthcare",
-        "marketCap": 68742063063040,
+        "marketCap": 65872026664960,
         "currency": "KRW",
         "changes": {
-          "1d": -2.75,
-          "1w": -3.88,
-          "1mo": 6.76,
-          "3mo": 1.02,
-          "ytd": -11.76,
-          "1y": -9.48
+          "1d": null,
+          "1w": -3.79,
+          "1mo": 1.28,
+          "3mo": -4.18,
+          "ytd": -15.45,
+          "1y": -11.69
         }
       },
       "005380.KS": {
         "name": "HyundaiMtr",
         "sector": "Cons. Cyclical",
-        "marketCap": 101591621304320,
+        "marketCap": 102900789411840,
         "currency": "KRW",
         "changes": {
-          "1d": 10.54,
-          "1w": -3.72,
-          "1mo": -21.62,
-          "3mo": -26.66,
-          "ytd": 31.03,
-          "1y": 87.54
+          "1d": null,
+          "1w": 11.17,
+          "1mo": -21.71,
+          "3mo": -26.82,
+          "ytd": 32.72,
+          "1y": 91.75
         }
       },
       "035420.KS": {
         "name": "NAVER",
         "sector": "Comm. Services",
-        "marketCap": 31112594194432,
+        "marketCap": 31037803462656,
         "currency": "KRW",
         "changes": {
-          "1d": 6.83,
-          "1w": -7.56,
-          "1mo": 4.52,
-          "3mo": -1.42,
-          "ytd": -14.9,
-          "1y": -10.56
+          "1d": null,
+          "1w": 2.98,
+          "1mo": 5.54,
+          "3mo": -0.72,
+          "ytd": -15.11,
+          "1y": -9.82
         }
       },
       "051910.KS": {
         "name": "LGCHEM",
         "sector": "Materials",
-        "marketCap": 20194976071680,
+        "marketCap": 19333950472192,
         "currency": "KRW",
         "changes": {
-          "1d": 5.09,
-          "1w": -0.77,
-          "1mo": -7.86,
-          "3mo": -35.01,
-          "ytd": -19.49,
-          "1y": -13.88
+          "1d": null,
+          "1w": 6.24,
+          "1mo": -10.67,
+          "3mo": -42.42,
+          "ytd": -22.92,
+          "1y": -14.13
         }
       },
       "006400.KS": {
         "name": "SAMSUNG SDI CO.,LTD.",
         "sector": "Industrials",
-        "marketCap": 31241371910144,
+        "marketCap": 30651170422784,
         "currency": "KRW",
         "changes": {
-          "1d": 10.74,
-          "1w": -7.89,
-          "1mo": -18.48,
-          "3mo": -42.88,
-          "ytd": 51.24,
-          "1y": 97.51
+          "1d": null,
+          "1w": 7.01,
+          "1mo": -13.73,
+          "3mo": -44.75,
+          "ytd": 48.38,
+          "1y": 101.08
         }
       },
       "035720.KS": {
         "name": "Kakao",
         "sector": "Comm. Services",
-        "marketCap": 16481577336832,
+        "marketCap": 16393440329728,
         "currency": "KRW",
         "changes": {
-          "1d": 3.46,
-          "1w": 0.94,
-          "1mo": 8.25,
-          "3mo": -20.93,
-          "ytd": -39.69,
-          "1y": -35.43
+          "1d": null,
+          "1w": 5.38,
+          "1mo": 4.49,
+          "3mo": -21.02,
+          "ytd": -40.01,
+          "1y": -32.76
         }
       },
       "028260.KS": {
         "name": "SAMSUNG C&T",
         "sector": "Industrials",
-        "marketCap": 57517761626112,
+        "marketCap": 53835972214784,
         "currency": "KRW",
         "changes": {
-          "1d": 19.56,
-          "1w": 3.53,
-          "1mo": -24.97,
-          "3mo": 17.76,
-          "ytd": 43.47,
-          "1y": 111.06
+          "1d": null,
+          "1w": 15.24,
+          "1mo": -26.81,
+          "3mo": 2.81,
+          "ytd": 34.29,
+          "1y": 105.86
         }
       },
       "012330.KS": {
         "name": "Mobis",
         "sector": "Cons. Cyclical",
-        "marketCap": 42449959387136,
+        "marketCap": 44010617962496,
         "currency": "KRW",
         "changes": {
-          "1d": 6.97,
-          "1w": 2.7,
-          "1mo": -4.8,
-          "3mo": 12.0,
-          "ytd": 30.51,
-          "1y": 64.37
+          "1d": null,
+          "1w": 10.9,
+          "1mo": -4.17,
+          "3mo": 14.37,
+          "ytd": 35.31,
+          "1y": 76.09
         }
       },
       "000270.KS": {
         "name": "KIA CORP.",
         "sector": "Cons. Cyclical",
-        "marketCap": 51263731400704,
+        "marketCap": 50369820360704,
         "currency": "KRW",
         "changes": {
-          "1d": 9.19,
-          "1w": 1.15,
-          "1mo": -4.42,
-          "3mo": -13.11,
-          "ytd": 14.17,
-          "1y": 34.59
+          "1d": null,
+          "1w": 7.64,
+          "1mo": -19.35,
+          "3mo": -15.84,
+          "ytd": 12.18,
+          "1y": 31.6
         }
       },
       "105560.KS": {
         "name": "KBFinancialGroup",
         "sector": "Financials",
-        "marketCap": 59161379340288,
+        "marketCap": 59512484528128,
         "currency": "KRW",
         "changes": {
-          "1d": 0.66,
-          "1w": -2.38,
-          "1mo": 5.97,
-          "3mo": 5.75,
-          "ytd": 38.98,
-          "1y": 56.85
+          "1d": null,
+          "1w": 5.87,
+          "1mo": -0.82,
+          "3mo": 8.19,
+          "ytd": 39.8,
+          "1y": 61.42
         }
       },
       "032830.KS": {
         "name": "SAMSUNG LIFE",
         "sector": "Financials",
-        "marketCap": 55937545011200,
+        "marketCap": 51627750850560,
         "currency": "KRW",
         "changes": {
-          "1d": 17.99,
-          "1w": 0.0,
-          "1mo": -22.32,
-          "3mo": 24.85,
-          "ytd": 99.3,
-          "1y": 155.76
+          "1d": null,
+          "1w": 8.29,
+          "1mo": -26.94,
+          "3mo": 8.49,
+          "ytd": 83.94,
+          "1y": 147.25
         }
       },
       "096770.KS": {
         "name": "SK Innovation",
         "sector": "Energy",
-        "marketCap": 18712392368128,
+        "marketCap": 18289034002432,
         "currency": "KRW",
         "changes": {
-          "1d": -5.23,
-          "1w": -5.31,
-          "1mo": 16.44,
-          "3mo": -24.42,
-          "ytd": 10.61,
-          "1y": 2.41
+          "1d": null,
+          "1w": -1.37,
+          "1mo": 11.92,
+          "3mo": -25.88,
+          "ytd": 8.11,
+          "1y": 4.45
         }
       },
       "003550.KS": {
         "name": "LG Corp.",
         "sector": "Technology",
-        "marketCap": 15589943803904,
+        "marketCap": 15374058782720,
         "currency": "KRW",
         "changes": {
-          "1d": 4.88,
-          "1w": 3.48,
-          "1mo": 3.91,
-          "3mo": 2.02,
-          "ytd": 27.83,
-          "1y": 32.44
+          "1d": null,
+          "1w": 8.13,
+          "1mo": -1.48,
+          "3mo": -2.54,
+          "ytd": 26.06,
+          "1y": 34.86
         }
       },
       "011200.KS": {
         "name": "HMM",
         "sector": "Industrials",
-        "marketCap": 19760834150400,
+        "marketCap": 19572186939392,
         "currency": "KRW",
         "changes": {
-          "1d": 1.45,
-          "1w": 1.45,
-          "1mo": 12.57,
-          "3mo": 2.2,
-          "ytd": 6.9,
-          "1y": -7.91
+          "1d": null,
+          "1w": 2.47,
+          "1mo": 7.07,
+          "3mo": -1.89,
+          "ytd": 5.88,
+          "1y": -7.01
         }
       },
       "017670.KS": {
         "name": "SKTelecom",
         "sector": "Comm. Services",
-        "marketCap": 17342913314816,
+        "marketCap": 17470748360704,
         "currency": "KRW",
         "changes": {
-          "1d": 4.09,
-          "1w": -16.85,
-          "1mo": -7.92,
-          "3mo": -13.69,
-          "ytd": 53.99,
-          "1y": 48.53
+          "1d": null,
+          "1w": 4.33,
+          "1mo": -4.87,
+          "3mo": -15.11,
+          "ytd": 55.13,
+          "1y": 49.36
         }
       },
       "030200.KS": {
         "name": "KT",
         "sector": "Comm. Services",
-        "marketCap": 12359041024000,
+        "marketCap": 12430480506880,
         "currency": "KRW",
         "changes": {
-          "1d": -1.7,
-          "1w": -3.53,
-          "1mo": -0.8,
-          "3mo": -12.89,
-          "ytd": 4.33,
-          "1y": -1.84
+          "1d": null,
+          "1w": -2.97,
+          "1mo": -3.15,
+          "3mo": -11.95,
+          "ytd": 4.94,
+          "1y": 0.36
         }
       },
       "009150.KS": {
         "name": "SamsungElecMech",
         "sector": "Technology",
-        "marketCap": 86274954231808,
+        "marketCap": 89221301796864,
         "currency": "KRW",
         "changes": {
-          "1d": 29.92,
-          "1w": -13.81,
-          "1mo": -47.71,
-          "3mo": 37.26,
-          "ytd": 322.96,
-          "1y": 675.02
+          "1d": null,
+          "1w": 14.77,
+          "1mo": -35.39,
+          "3mo": 28.65,
+          "ytd": 337.41,
+          "1y": 692.96
         }
       },
       "086790.KS": {
         "name": "HANAFINANCIALGR",
         "sector": "Financials",
-        "marketCap": 33641967124480,
+        "marketCap": 34044383330304,
         "currency": "KRW",
         "changes": {
-          "1d": 0.64,
-          "1w": -3.98,
-          "1mo": 9.42,
-          "3mo": -1.08,
-          "ytd": 36.95,
-          "1y": 52.85
+          "1d": null,
+          "1w": 5.4,
+          "1mo": 1.68,
+          "3mo": 1.14,
+          "ytd": 38.59,
+          "1y": 60.31
         }
       }
     },
@@ -1975,43 +1975,43 @@
       "0700.HK": {
         "name": "TENCENT",
         "sector": "Comm. Services",
-        "marketCap": 4277574041600,
+        "marketCap": 4414398529536,
         "currency": "HKD",
         "changes": {
-          "1d": 0.72,
-          "1w": 7.27,
-          "1mo": 10.56,
-          "3mo": 2.77,
-          "ytd": -22.84,
-          "1y": -12.59
+          "1d": 3.2,
+          "1w": 9.66,
+          "1mo": 13.73,
+          "3mo": 4.89,
+          "ytd": -20.37,
+          "1y": -9.8
         }
       },
       "0941.HK": {
         "name": "CHINA MOBILE",
         "sector": "Comm. Services",
-        "marketCap": 1810571460608,
+        "marketCap": 1809489199104,
         "currency": "HKD",
         "changes": {
-          "1d": -1.36,
-          "1w": 1.39,
-          "1mo": 9.85,
-          "3mo": 1.91,
-          "ytd": 3.31,
-          "1y": 3.31
+          "1d": -0.06,
+          "1w": 0.42,
+          "1mo": 9.0,
+          "3mo": 2.63,
+          "ytd": 3.25,
+          "1y": 3.97
         }
       },
       "1299.HK": {
         "name": "AIA",
         "sector": "Financials",
-        "marketCap": 816684335104,
+        "marketCap": 809470787584,
         "currency": "HKD",
         "changes": {
-          "1d": -0.5,
-          "1w": 1.67,
-          "1mo": 10.92,
-          "3mo": -5.2,
-          "ytd": -3.21,
-          "1y": 10.59
+          "1d": -0.88,
+          "1w": 0.83,
+          "1mo": 7.24,
+          "3mo": -7.08,
+          "ytd": -4.07,
+          "1y": 11.98
         }
       },
       "0005.HK": {
@@ -2020,180 +2020,180 @@
         "marketCap": 2884328751104,
         "currency": "HKD",
         "changes": {
-          "1d": 2.25,
-          "1w": 3.32,
-          "1mo": 13.73,
-          "3mo": 20.64,
+          "1d": 0.0,
+          "1w": 3.83,
+          "1mo": 10.66,
+          "3mo": 17.95,
           "ytd": 39.78,
-          "1y": 83.41
+          "1y": 82.94
         }
       },
       "0939.HK": {
         "name": "CCB",
         "sector": "Financials",
-        "marketCap": 2409339551744,
+        "marketCap": 2406723354624,
         "currency": "HKD",
         "changes": {
-          "1d": -1.6,
-          "1w": 2.45,
-          "1mo": 17.54,
-          "3mo": 8.03,
-          "ytd": 21.61,
-          "1y": 20.86
+          "1d": -0.11,
+          "1w": 0.77,
+          "1mo": 18.25,
+          "3mo": 7.18,
+          "ytd": 21.47,
+          "1y": 22.71
         }
       },
       "2318.HK": {
         "name": "PING AN",
         "sector": "Financials",
-        "marketCap": 1062013239296,
+        "marketCap": 1058391654400,
         "currency": "HKD",
         "changes": {
-          "1d": -0.09,
-          "1w": 3.53,
-          "1mo": 14.89,
-          "3mo": -3.69,
-          "ytd": -9.17,
-          "1y": 14.55
+          "1d": -0.34,
+          "1w": 2.36,
+          "1mo": 12.3,
+          "3mo": -4.39,
+          "ytd": -9.48,
+          "1y": 14.8
         }
       },
       "1398.HK": {
         "name": "ICBC",
         "sector": "Financials",
-        "marketCap": 2676611088384,
+        "marketCap": 2671264923648,
         "currency": "HKD",
         "changes": {
-          "1d": -1.7,
-          "1w": 3.02,
-          "1mo": 16.8,
-          "3mo": 9.87,
-          "ytd": 21.82,
-          "1y": 31.54
+          "1d": -0.2,
+          "1w": 1.83,
+          "1mo": 16.56,
+          "3mo": 8.31,
+          "ytd": 21.58,
+          "1y": 30.41
         }
       },
       "3690.HK": {
         "name": "MEITUAN-W",
         "sector": "Cons. Cyclical",
-        "marketCap": 570895302656,
+        "marketCap": 576758546432,
         "currency": "HKD",
         "changes": {
-          "1d": -0.16,
-          "1w": 3.58,
-          "1mo": 35.04,
-          "3mo": 11.11,
-          "ytd": -11.57,
-          "1y": -23.93
+          "1d": 1.03,
+          "1w": 3.49,
+          "1mo": 30.52,
+          "3mo": 10.66,
+          "ytd": -10.66,
+          "1y": -24.02
         }
       },
       "9988.HK": {
         "name": "BABA-W",
         "sector": "Cons. Cyclical",
-        "marketCap": 2243472392192,
+        "marketCap": 2400707149824,
         "currency": "HKD",
         "changes": {
-          "1d": 4.65,
-          "1w": 5.41,
-          "1mo": 26.01,
-          "3mo": -7.04,
-          "ytd": -21.39,
-          "1y": 1.24
+          "1d": 7.01,
+          "1w": 11.79,
+          "1mo": 33.05,
+          "3mo": -4.83,
+          "ytd": -15.88,
+          "1y": 7.87
         }
       },
       "0883.HK": {
         "name": "CNOOC",
         "sector": "Energy",
-        "marketCap": 1132163497984,
+        "marketCap": 1128361099264,
         "currency": "HKD",
         "changes": {
-          "1d": -1.49,
-          "1w": 2.67,
-          "1mo": 17.22,
-          "3mo": -17.14,
-          "ytd": 11.36,
-          "1y": 33.5
+          "1d": -0.34,
+          "1w": 3.31,
+          "1mo": 12.09,
+          "3mo": -15.23,
+          "ytd": 10.99,
+          "1y": 35.63
         }
       },
       "2020.HK": {
         "name": "ANTA SPORTS",
         "sector": "Cons. Cyclical",
-        "marketCap": 218730938368,
+        "marketCap": 213328461824,
         "currency": "HKD",
         "changes": {
-          "1d": -0.82,
-          "1w": 3.75,
-          "1mo": 11.12,
-          "3mo": -1.33,
-          "ytd": -2.24,
-          "1y": -9.74
+          "1d": -2.47,
+          "1w": -0.06,
+          "1mo": 5.84,
+          "3mo": -4.07,
+          "ytd": -4.65,
+          "1y": -12.94
         }
       },
       "0388.HK": {
         "name": "HKEX",
         "sector": "Financials",
-        "marketCap": 516483121152,
+        "marketCap": 516988731392,
         "currency": "HKD",
         "changes": {
-          "1d": 0.34,
-          "1w": 2.05,
-          "1mo": 12.56,
-          "3mo": -0.92,
-          "ytd": -0.17,
-          "1y": -1.49
+          "1d": 0.1,
+          "1w": 1.24,
+          "1mo": 9.07,
+          "3mo": -1.45,
+          "ytd": -0.07,
+          "1y": 0.02
         }
       },
       "1810.HK": {
         "name": "XIAOMI-W",
         "sector": "Technology",
-        "marketCap": 739461431296,
+        "marketCap": 718392655872,
         "currency": "HKD",
         "changes": {
-          "1d": -7.28,
-          "1w": 0.35,
-          "1mo": 32.99,
-          "3mo": -0.83,
-          "ytd": -28.55,
-          "1y": -45.85
+          "1d": -2.85,
+          "1w": -4.44,
+          "1mo": 21.78,
+          "3mo": -9.75,
+          "ytd": -30.59,
+          "1y": -48.74
         }
       },
       "0016.HK": {
         "name": "SHK PPT",
         "sector": "Real Estate",
-        "marketCap": 357006508032,
+        "marketCap": 354108735488,
         "currency": "HKD",
         "changes": {
-          "1d": 1.07,
-          "1w": 1.4,
-          "1mo": 9.71,
-          "3mo": -9.28,
-          "ytd": 28.44,
-          "1y": 36.61
+          "1d": -0.81,
+          "1w": 0.99,
+          "1mo": 5.98,
+          "3mo": -11.64,
+          "ytd": 27.4,
+          "1y": 34.85
         }
       },
       "1177.HK": {
         "name": "SBP GROUP",
         "sector": "Healthcare",
-        "marketCap": 89403113472,
+        "marketCap": 87892320256,
         "currency": "HKD",
         "changes": {
-          "1d": -0.59,
-          "1w": -1.18,
-          "1mo": 14.06,
-          "3mo": -6.13,
-          "ytd": -20.01,
-          "1y": -31.91
+          "1d": -1.69,
+          "1w": -2.85,
+          "1mo": 4.32,
+          "3mo": -8.73,
+          "ytd": -21.36,
+          "1y": -30.56
         }
       },
       "2382.HK": {
         "name": "SUNNY OPTICAL",
         "sector": "Technology",
-        "marketCap": 60207501312,
+        "marketCap": 60744585216,
         "currency": "HKD",
         "changes": {
-          "1d": -2.01,
-          "1w": -4.43,
-          "1mo": -8.11,
-          "3mo": -10.7,
-          "ytd": -16.28,
-          "1y": -22.24
+          "1d": 0.89,
+          "1w": -2.58,
+          "1mo": -5.83,
+          "3mo": -13.17,
+          "ytd": -15.54,
+          "1y": -21.97
         }
       },
       "0011.HK": {
@@ -2213,43 +2213,43 @@
       "2269.HK": {
         "name": "WUXI BIO",
         "sector": "Healthcare",
-        "marketCap": 159076089856,
+        "marketCap": 159322439680,
         "currency": "HKD",
         "changes": {
-          "1d": 2.49,
-          "1w": 0.21,
-          "1mo": 11.97,
-          "3mo": 17.25,
-          "ytd": 19.05,
-          "1y": 20.31
+          "1d": 0.15,
+          "1w": 0.57,
+          "1mo": 3.3,
+          "3mo": 12.27,
+          "ytd": 19.24,
+          "1y": 24.28
         }
       },
       "0960.HK": {
         "name": "LONGFOR GROUP",
         "sector": "Real Estate",
-        "marketCap": 47076245504,
+        "marketCap": 47041929216,
         "currency": "HKD",
         "changes": {
-          "1d": -0.87,
-          "1w": 3.31,
-          "1mo": 14.72,
-          "3mo": -14.46,
-          "ytd": -20.82,
-          "1y": -28.58
+          "1d": -0.07,
+          "1w": 1.56,
+          "1mo": 10.39,
+          "3mo": -15.68,
+          "ytd": -20.88,
+          "1y": -28.85
         }
       },
       "9618.HK": {
         "name": "JD-SW",
         "sector": "Cons. Cyclical",
-        "marketCap": 347191607296,
+        "marketCap": 353201225728,
         "currency": "HKD",
         "changes": {
-          "1d": -1.24,
-          "1w": 6.63,
-          "1mo": 28.06,
-          "3mo": 9.29,
-          "ytd": 10.92,
-          "1y": 3.88
+          "1d": 1.73,
+          "1w": 4.19,
+          "1mo": 24.09,
+          "3mo": 10.7,
+          "ytd": 12.84,
+          "1y": 5.59
         }
       }
     },
@@ -2257,281 +2257,281 @@
       "2330.TW": {
         "name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
         "sector": "Technology",
-        "marketCap": 62885996789760,
+        "marketCap": 61459715325952,
         "currency": "TWD",
         "changes": {
-          "1d": 9.98,
-          "1w": 3.19,
-          "1mo": 0.62,
-          "3mo": 13.89,
-          "ytd": 53.91,
-          "1y": 111.84
+          "1d": -2.27,
+          "1w": 3.95,
+          "1mo": -3.07,
+          "3mo": 4.45,
+          "ytd": 50.41,
+          "1y": 111.59
         }
       },
       "2454.TW": {
         "name": "MEDIATEK INC",
         "sector": "Technology",
-        "marketCap": 5674171891712,
+        "marketCap": 6240790904832,
         "currency": "TWD",
         "changes": {
-          "1d": 9.89,
-          "1w": -3.4,
-          "1mo": -15.75,
-          "3mo": 37.02,
-          "ytd": 148.0,
-          "1y": 166.1
+          "1d": 9.99,
+          "1w": 17.95,
+          "1mo": -6.24,
+          "3mo": 37.05,
+          "ytd": 172.76,
+          "1y": 201.47
         }
       },
       "2317.TW": {
         "name": "HON HAI PRECISION INDUSTRY",
         "sector": "Technology",
-        "marketCap": 3507480952832,
+        "marketCap": 3542485827584,
         "currency": "TWD",
         "changes": {
-          "1d": 9.15,
-          "1w": -0.99,
-          "1mo": 2.77,
-          "3mo": 17.52,
-          "ytd": 11.19,
-          "1y": 44.92
+          "1d": 1.0,
+          "1w": 6.3,
+          "1mo": 5.2,
+          "3mo": 14.52,
+          "ytd": 12.3,
+          "1y": 44.74
         }
       },
       "2308.TW": {
         "name": "DELTA ELECTRONIC",
         "sector": "Technology",
-        "marketCap": 4259971334144,
+        "marketCap": 4104118599680,
         "currency": "TWD",
         "changes": {
-          "1d": 7.19,
-          "1w": -6.55,
-          "1mo": -15.9,
-          "3mo": -23.85,
-          "ytd": 65.69,
-          "1y": 190.75
+          "1d": -3.66,
+          "1w": 0.0,
+          "1mo": -23.86,
+          "3mo": -28.46,
+          "ytd": 59.62,
+          "1y": 167.84
         }
       },
       "2412.TW": {
         "name": "CHUNGHWA TELECOM",
         "sector": "Comm. Services",
-        "marketCap": 1082163789824,
+        "marketCap": 1078285107200,
         "currency": "TWD",
         "changes": {
-          "1d": -0.71,
-          "1w": -0.71,
+          "1d": -0.36,
+          "1w": -1.42,
           "1mo": 2.4,
           "3mo": 6.55,
-          "ytd": 9.77,
-          "1y": 12.33
+          "ytd": 9.38,
+          "1y": 10.22
         }
       },
       "2303.TW": {
         "name": "UNITED MICRO ELECTRONICS",
         "sector": "Technology",
-        "marketCap": 1517284622336,
+        "marketCap": 1479666040832,
         "currency": "TWD",
         "changes": {
-          "1d": 10.0,
-          "1w": -3.97,
-          "1mo": -25.18,
-          "3mo": 59.21,
-          "ytd": 152.71,
-          "1y": 196.2
+          "1d": -2.48,
+          "1w": 3.96,
+          "1mo": -29.61,
+          "3mo": 47.81,
+          "ytd": 146.45,
+          "1y": 191.31
         }
       },
       "2882.TW": {
         "name": "CATHAY FINANCIAL HLDG CO",
         "sector": "Financials",
-        "marketCap": 1488924835840,
+        "marketCap": 1474255519744,
         "currency": "TWD",
         "changes": {
-          "1d": 6.62,
-          "1w": 3.05,
-          "1mo": 3.26,
-          "3mo": 36.17,
-          "ytd": 39.79,
-          "1y": 72.62
+          "1d": -0.99,
+          "1w": 5.35,
+          "1mo": 7.37,
+          "3mo": 36.6,
+          "ytd": 38.42,
+          "1y": 66.54
         }
       },
       "2881.TW": {
         "name": "FUBON FINANCIAL HLDG CO LTD",
         "sector": "Financials",
-        "marketCap": 1776543858688,
+        "marketCap": 1769711075328,
         "currency": "TWD",
         "changes": {
-          "1d": 4.84,
-          "1w": 0.0,
-          "1mo": 3.79,
-          "3mo": 49.35,
-          "ytd": 40.6,
-          "1y": 67.2
+          "1d": -0.38,
+          "1w": 3.19,
+          "1mo": 7.02,
+          "3mo": 47.14,
+          "ytd": 40.06,
+          "1y": 63.38
         }
       },
       "2891.TW": {
         "name": "CTBC FINANCIAL HOLDINGS COMPANY",
         "sector": "Financials",
-        "marketCap": 1277030825984,
+        "marketCap": 1275063173120,
         "currency": "TWD",
         "changes": {
-          "1d": 2.85,
-          "1w": 3.02,
-          "1mo": -5.2,
-          "3mo": 28.7,
-          "ytd": 32.5,
-          "1y": 63.17
+          "1d": -0.15,
+          "1w": 3.85,
+          "1mo": -4.81,
+          "3mo": 27.04,
+          "ytd": 32.29,
+          "1y": 57.57
         }
       },
       "2886.TW": {
         "name": "MEGA FINANCIAL HOLDING CO",
         "sector": "Financials",
-        "marketCap": 787652345856,
+        "marketCap": 765402284032,
         "currency": "TWD",
         "changes": {
-          "1d": 3.11,
-          "1w": 7.49,
-          "1mo": 15.18,
-          "3mo": 35.81,
-          "ytd": 31.76,
-          "1y": 29.47
+          "1d": -2.82,
+          "1w": 4.35,
+          "1mo": 13.41,
+          "3mo": 32.31,
+          "ytd": 28.04,
+          "1y": 24.78
         }
       },
       "3711.TW": {
         "name": "ASE TECHNOLOGY HOLDING CO LTD",
         "sector": "Technology",
-        "marketCap": 2440685158400,
+        "marketCap": 2682554941440,
         "currency": "TWD",
         "changes": {
-          "1d": 9.9,
-          "1w": -8.72,
-          "1mo": -17.64,
-          "3mo": 17.17,
-          "ytd": 117.08,
-          "1y": 267.26
+          "1d": 9.91,
+          "1w": 10.11,
+          "1mo": -10.56,
+          "3mo": 17.25,
+          "ytd": 138.6,
+          "1y": 317.34
         }
       },
       "2002.TW": {
         "name": "CHINA STEEL CORP",
         "sector": "Materials",
-        "marketCap": 289556135936,
+        "marketCap": 288028131328,
         "currency": "TWD",
         "changes": {
-          "1d": 0.0,
-          "1w": -1.56,
-          "1mo": 1.6,
-          "3mo": 1.87,
-          "ytd": 1.87,
-          "1y": -1.8
+          "1d": -0.53,
+          "1w": -0.79,
+          "1mo": 0.26,
+          "3mo": 2.15,
+          "ytd": 1.33,
+          "1y": -0.79
         }
       },
       "1301.TW": {
         "name": "FORMOSA PLASTIC",
         "sector": "Materials",
-        "marketCap": 350115758080,
+        "marketCap": 342476849152,
         "currency": "TWD",
         "changes": {
-          "1d": 1.85,
-          "1w": -10.86,
-          "1mo": 0.92,
-          "3mo": 7.81,
-          "ytd": 44.4,
-          "1y": 30.18
+          "1d": -2.18,
+          "1w": -6.43,
+          "1mo": -13.37,
+          "3mo": 6.91,
+          "ytd": 41.25,
+          "1y": 43.49
         }
       },
       "1303.TW": {
         "name": "NAN YA PLASTIC",
         "sector": "Materials",
-        "marketCap": 1264966172672,
+        "marketCap": 1308585623552,
         "currency": "TWD",
         "changes": {
-          "1d": 10.0,
-          "1w": -8.33,
-          "1mo": -3.74,
-          "3mo": 78.87,
-          "ytd": 181.18,
-          "1y": 291.38
+          "1d": 3.45,
+          "1w": 5.1,
+          "1mo": -15.84,
+          "3mo": 87.55,
+          "ytd": 190.87,
+          "1y": 340.36
         }
       },
       "2207.TW": {
         "name": "HOTAI MOTOR CO",
         "sector": "Cons. Cyclical",
-        "marketCap": 310863364096,
+        "marketCap": 290807644160,
         "currency": "TWD",
         "changes": {
-          "1d": 1.27,
-          "1w": 12.05,
-          "1mo": 19.87,
-          "3mo": 22.09,
-          "ytd": 6.55,
-          "1y": 5.39
+          "1d": -6.45,
+          "1w": 4.4,
+          "1mo": 10.36,
+          "3mo": 15.06,
+          "ytd": -0.32,
+          "1y": -1.05
         }
       },
       "2395.TW": {
         "name": "ADVANTECH CO LTD",
         "sector": "Technology",
-        "marketCap": 488826994688,
+        "marketCap": 500114325504,
         "currency": "TWD",
         "changes": {
-          "1d": 2.93,
-          "1w": -2.43,
-          "1mo": 16.89,
-          "3mo": 59.97,
-          "ytd": 100.74,
-          "1y": 71.42
+          "1d": 2.31,
+          "1w": 3.6,
+          "1mo": 12.93,
+          "3mo": 48.96,
+          "ytd": 105.37,
+          "1y": 82.16
         }
       },
       "3008.TW": {
         "name": "LARGAN PRECISION CO",
         "sector": "Technology",
-        "marketCap": 527770746880,
+        "marketCap": 517960859648,
         "currency": "TWD",
         "changes": {
-          "1d": 8.61,
-          "1w": -1.34,
-          "1mo": -5.94,
-          "3mo": 60.44,
-          "ytd": 59.49,
-          "1y": 76.37
+          "1d": -1.86,
+          "1w": 1.54,
+          "1mo": -6.38,
+          "3mo": 53.79,
+          "ytd": 56.53,
+          "1y": 72.0
         }
       },
       "2357.TW": {
         "name": "ASUSTEK COMPUTER INC",
         "sector": "Technology",
-        "marketCap": 601635815424,
+        "marketCap": 593465442304,
         "currency": "TWD",
         "changes": {
-          "1d": 9.91,
-          "1w": 6.58,
-          "1mo": 23.1,
-          "3mo": 48.31,
-          "ytd": 55.26,
-          "1y": 30.17
+          "1d": -1.36,
+          "1w": 8.71,
+          "1mo": 18.37,
+          "3mo": 43.82,
+          "ytd": 53.15,
+          "1y": 27.82
         }
       },
       "2408.TW": {
         "name": "NANYA TECHNOLOGY CORPORATION",
         "sector": "Technology",
-        "marketCap": 1117055352832,
+        "marketCap": 1228605882368,
         "currency": "TWD",
         "changes": {
-          "1d": 9.91,
-          "1w": -17.32,
-          "1mo": -20.08,
-          "3mo": 67.82,
-          "ytd": 74.71,
-          "1y": 711.8
+          "1d": 9.99,
+          "1w": 1.02,
+          "1mo": -2.86,
+          "3mo": 67.84,
+          "ytd": 92.16,
+          "1y": 809.2
         }
       },
       "5880.TW": {
         "name": "TAIWAN COOPERATIVE FINANCIAL HL",
         "sector": "Financials",
-        "marketCap": 432793845760,
+        "marketCap": 421817155584,
         "currency": "TWD",
         "changes": {
-          "1d": 2.22,
-          "1w": 6.36,
-          "1mo": 11.07,
-          "3mo": 20.26,
-          "ytd": 13.81,
-          "1y": 15.12
+          "1d": -2.54,
+          "1w": 3.66,
+          "1mo": 8.91,
+          "3mo": 17.47,
+          "ytd": 10.93,
+          "1y": 10.03
         }
       }
     },
@@ -2539,10 +2539,10 @@
       "ASML.AS": {
         "name": "ASML HOLDING",
         "sector": "Technology",
-        "marketCap": 550876217344,
+        "marketCap": 545268334592,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2553,10 +2553,10 @@
       "MC.PA": {
         "name": "LVMH",
         "sector": "Cons. Cyclical",
-        "marketCap": 234296098816,
+        "marketCap": 240090005504,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2581,15 +2581,15 @@
       "NESN.SW": {
         "name": "NESTLE N",
         "sector": "Cons. Defensive",
-        "marketCap": 208375545856,
+        "marketCap": 207758196736,
         "currency": "CHF",
         "changes": {
-          "1d": -1.66,
-          "1w": 0.77,
-          "1mo": -2.49,
-          "3mo": 2.48,
-          "ytd": 10.31,
-          "1y": 18.59
+          "1d": NaN,
+          "1w": NaN,
+          "1mo": NaN,
+          "3mo": NaN,
+          "ytd": NaN,
+          "1y": NaN
         }
       },
       "LVMH.PA": {
@@ -2609,10 +2609,10 @@
       "SIE.DE": {
         "name": "SIEMENS AG                    N",
         "sector": "Industrials",
-        "marketCap": null,
+        "marketCap": 217610665984,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2623,10 +2623,10 @@
       "SAP.DE": {
         "name": "SAP SE                        I",
         "sector": "Technology",
-        "marketCap": 181994930176,
+        "marketCap": 190028185600,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2637,24 +2637,24 @@
       "SAN.MC": {
         "name": "BANCO SANTANDER S.A.",
         "sector": "Financials",
-        "marketCap": 176074539008,
+        "marketCap": 179493797888,
         "currency": "EUR",
         "changes": {
-          "1d": 0.57,
-          "1w": 0.51,
-          "1mo": 1.94,
-          "3mo": 18.67,
-          "ytd": 21.6,
-          "1y": 67.58
+          "1d": NaN,
+          "1w": NaN,
+          "1mo": NaN,
+          "3mo": NaN,
+          "ytd": NaN,
+          "1y": NaN
         }
       },
       "BNP.PA": {
         "name": "BNP PARIBAS ACT.A",
         "sector": "Financials",
-        "marketCap": 120187363328,
+        "marketCap": 122510876672,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2665,10 +2665,10 @@
       "AI.PA": {
         "name": "AIR LIQUIDE",
         "sector": "Materials",
-        "marketCap": 108555542528,
+        "marketCap": 108301197312,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2679,10 +2679,10 @@
       "TTE.PA": {
         "name": "TOTALENERGIES",
         "sector": "Energy",
-        "marketCap": 169674440704,
+        "marketCap": 169696657408,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2693,10 +2693,10 @@
       "OR.PA": {
         "name": "L'OREAL",
         "sector": "Cons. Defensive",
-        "marketCap": 206011875328,
+        "marketCap": 207502589952,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2707,10 +2707,10 @@
       "ABI.BR": {
         "name": "AB INBEV",
         "sector": "Cons. Defensive",
-        "marketCap": 145214570496,
+        "marketCap": 144714137600,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2721,10 +2721,10 @@
       "BAYN.DE": {
         "name": "Bayer AG                      N",
         "sector": "Healthcare",
-        "marketCap": 47205474304,
+        "marketCap": 46291820544,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2735,10 +2735,10 @@
       "DTE.DE": {
         "name": "DEUTSCHE TELEKOM AG           N",
         "sector": "Comm. Services",
-        "marketCap": 129465491456,
+        "marketCap": 135851679744,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2752,7 +2752,7 @@
         "marketCap": 137800368128,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2763,10 +2763,10 @@
       "ALV.DE": {
         "name": "Allianz SE                    v",
         "sector": "Financials",
-        "marketCap": null,
+        "marketCap": 164193026048,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2777,10 +2777,10 @@
       "ADS.DE": {
         "name": "adidas AG                     N",
         "sector": "Cons. Cyclical",
-        "marketCap": null,
+        "marketCap": 28850362368,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2791,24 +2791,24 @@
       "BBVA.MC": {
         "name": "BANCO BILBAO VIZCAYA ARGENTARIA",
         "sector": "Financials",
-        "marketCap": 133711912960,
+        "marketCap": 136364048384,
         "currency": "EUR",
         "changes": {
-          "1d": 1.0,
-          "1w": 4.31,
-          "1mo": 10.65,
-          "3mo": 28.65,
-          "ytd": 22.64,
-          "1y": 73.9
+          "1d": NaN,
+          "1w": NaN,
+          "1mo": NaN,
+          "3mo": NaN,
+          "ytd": NaN,
+          "1y": NaN
         }
       },
       "BMW.DE": {
         "name": "BAYERISCHE MOTOREN WERKE AG   S",
         "sector": "Cons. Cyclical",
-        "marketCap": 35382906880,
+        "marketCap": 35836383232,
         "currency": "EUR",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -2821,197 +2821,197 @@
       "VALE3.SA": {
         "name": "VALE        ON      NM",
         "sector": "Materials",
-        "marketCap": 324629561344,
+        "marketCap": 317650108416,
         "currency": "BRL",
         "changes": {
-          "1d": 0.25,
-          "1w": 0.78,
-          "1mo": -2.05,
-          "3mo": -6.04,
-          "ytd": 5.39,
-          "1y": 55.42
+          "1d": null,
+          "1w": -1.39,
+          "1mo": -5.33,
+          "3mo": -5.11,
+          "ytd": 3.12,
+          "1y": 50.06
         }
       },
       "PETR4.SA": {
         "name": "PETROBRAS   PN  ATZ N2",
         "sector": "Energy",
-        "marketCap": 593268506624,
+        "marketCap": 588213059584,
         "currency": "BRL",
         "changes": {
-          "1d": 1.35,
-          "1w": 5.88,
-          "1mo": 14.87,
-          "3mo": -10.04,
-          "ytd": 45.79,
-          "1y": 44.72
+          "1d": null,
+          "1w": 4.46,
+          "1mo": 12.55,
+          "3mo": -11.28,
+          "ytd": 44.55,
+          "1y": 45.62
         }
       },
       "ITUB4.SA": {
         "name": "ITAUUNIBANCOPN      N1",
         "sector": "Financials",
-        "marketCap": 472728076288,
+        "marketCap": 475814199296,
         "currency": "BRL",
         "changes": {
-          "1d": 0.35,
-          "1w": 0.47,
-          "1mo": 1.73,
-          "3mo": 0.33,
-          "ytd": 11.73,
-          "1y": 37.17
+          "1d": null,
+          "1w": 0.72,
+          "1mo": 1.01,
+          "3mo": 2.83,
+          "ytd": 12.46,
+          "1y": 37.45
         }
       },
       "BBDC4.SA": {
         "name": "BRADESCO    PN      N1",
         "sector": "Financials",
-        "marketCap": 194818228224,
+        "marketCap": 201688367104,
         "currency": "BRL",
         "changes": {
-          "1d": 0.22,
-          "1w": -1.5,
-          "1mo": 3.9,
-          "3mo": -2.45,
-          "ytd": 5.45,
-          "1y": 29.2
+          "1d": null,
+          "1w": -1.17,
+          "1mo": 3.56,
+          "3mo": 0.31,
+          "ytd": 6.14,
+          "1y": 28.8
         }
       },
       "ABEV3.SA": {
         "name": "AMBEV S/A   ON",
         "sector": "Cons. Defensive",
-        "marketCap": 247090184192,
+        "marketCap": 243690586112,
         "currency": "BRL",
         "changes": {
-          "1d": 0.19,
-          "1w": 0.82,
-          "1mo": -1.84,
-          "3mo": 10.51,
-          "ytd": 17.47,
-          "1y": 34.6
+          "1d": null,
+          "1w": -2.05,
+          "1mo": -3.19,
+          "3mo": 9.51,
+          "ytd": 15.85,
+          "1y": 34.48
         }
       },
       "WEGE3.SA": {
         "name": "WEG         ON      NM",
         "sector": "Industrials",
-        "marketCap": 198043172864,
+        "marketCap": 202239000576,
         "currency": "BRL",
         "changes": {
-          "1d": 0.81,
-          "1w": 1.72,
-          "1mo": 0.62,
-          "3mo": 5.46,
-          "ytd": -1.74,
-          "1y": 32.76
+          "1d": null,
+          "1w": 3.21,
+          "1mo": 3.7,
+          "3mo": 8.91,
+          "ytd": 0.35,
+          "1y": 35.72
         }
       },
       "B3SA3.SA": {
         "name": "B3          ON      NM",
         "sector": "Financials",
-        "marketCap": 78623236096,
+        "marketCap": 78073421824,
         "currency": "BRL",
         "changes": {
-          "1d": 0.64,
-          "1w": 0.06,
-          "1mo": 8.26,
-          "3mo": -11.45,
-          "ytd": 19.36,
-          "1y": 31.78
+          "1d": null,
+          "1w": -2.38,
+          "1mo": 5.83,
+          "3mo": -11.29,
+          "ytd": 18.52,
+          "1y": 29.83
         }
       },
       "RENT3.SA": {
         "name": "LOCALIZA    ON      NM",
         "sector": "Industrials",
-        "marketCap": 41544568832,
+        "marketCap": 42085826560,
         "currency": "BRL",
         "changes": {
-          "1d": -1.62,
-          "1w": -0.29,
-          "1mo": -9.46,
-          "3mo": -17.05,
-          "ytd": -11.31,
-          "1y": 14.05
+          "1d": null,
+          "1w": -0.7,
+          "1mo": -8.08,
+          "3mo": -14.23,
+          "ytd": -10.15,
+          "1y": 16.44
         }
       },
       "SUZB3.SA": {
         "name": "SUZANO S.A. ON      NM",
         "sector": "Materials",
-        "marketCap": 53477965824,
+        "marketCap": 53206380544,
         "currency": "BRL",
         "changes": {
-          "1d": 1.38,
-          "1w": 3.46,
-          "1mo": 8.98,
-          "3mo": -1.19,
-          "ytd": -16.48,
-          "1y": -15.12
+          "1d": null,
+          "1w": 0.0,
+          "1mo": 5.64,
+          "3mo": 1.22,
+          "ytd": -16.9,
+          "1y": -13.26
         }
       },
       "RDOR3.SA": {
         "name": "REDE D OR   ON      NM",
         "sector": "Healthcare",
-        "marketCap": 75522392064,
+        "marketCap": 74257874944,
         "currency": "BRL",
         "changes": {
-          "1d": 0.64,
-          "1w": 3.1,
-          "1mo": -0.2,
-          "3mo": -9.24,
-          "ytd": -13.59,
-          "1y": 17.7
+          "1d": null,
+          "1w": -0.76,
+          "1mo": -4.73,
+          "3mo": -9.65,
+          "ytd": -15.04,
+          "1y": 13.29
         }
       },
       "GGBR4.SA": {
         "name": "GERDAU      PN      N1",
         "sector": "Materials",
-        "marketCap": 49040252928,
+        "marketCap": 50316320768,
         "currency": "BRL",
         "changes": {
-          "1d": 0.0,
-          "1w": 2.04,
-          "1mo": 20.21,
-          "3mo": 11.34,
-          "ytd": 23.39,
-          "1y": 53.64
+          "1d": null,
+          "1w": 1.95,
+          "1mo": 19.54,
+          "3mo": 14.03,
+          "ytd": 26.6,
+          "1y": 63.57
         }
       },
       "BRAP4.SA": {
         "name": "BRADESPAR   PN      N1",
         "sector": "Financials",
-        "marketCap": 8648125440,
+        "marketCap": 8451576832,
         "currency": "BRL",
         "changes": {
-          "1d": 1.24,
-          "1w": 1.15,
-          "1mo": -0.36,
-          "3mo": -4.1,
-          "ytd": 9.56,
-          "1y": 57.14
+          "1d": null,
+          "1w": -1.19,
+          "1mo": -4.15,
+          "3mo": -4.57,
+          "ytd": 7.07,
+          "1y": 52.41
         }
       },
       "EQTL3.SA": {
         "name": "EQUATORIAL  ON      NM",
         "sector": "Utilities",
-        "marketCap": 48515055616,
+        "marketCap": 48803684352,
         "currency": "BRL",
         "changes": {
-          "1d": 0.0,
-          "1w": -0.36,
-          "1mo": -0.72,
-          "3mo": -8.65,
-          "ytd": 0.94,
-          "1y": 18.32
+          "1d": null,
+          "1w": 0.15,
+          "1mo": -1.39,
+          "3mo": -7.51,
+          "ytd": 1.54,
+          "1y": 18.4
         }
       },
       "CMIG4.SA": {
         "name": "CEMIG       PN      N1",
         "sector": "Utilities",
-        "marketCap": 32440133632,
+        "marketCap": 32268492800,
         "currency": "BRL",
         "changes": {
-          "1d": 0.98,
-          "1w": 1.52,
-          "1mo": 4.32,
-          "3mo": -5.95,
-          "ytd": 7.69,
-          "1y": 22.76
+          "1d": null,
+          "1w": 0.8,
+          "1mo": 2.27,
+          "3mo": -5.49,
+          "ytd": 7.12,
+          "1y": 22.47
         }
       },
       "CPLE6.SA": {
@@ -3031,29 +3031,29 @@
       "CSAN3.SA": {
         "name": "COSAN       ON      NM",
         "sector": "Energy",
-        "marketCap": 16053572608,
+        "marketCap": 16171902976,
         "currency": "BRL",
         "changes": {
-          "1d": 2.01,
-          "1w": 3.04,
-          "1mo": 10.0,
-          "3mo": -19.25,
-          "ytd": -22.48,
-          "1y": -31.37
+          "1d": null,
+          "1w": 2.5,
+          "1mo": 8.47,
+          "3mo": -19.61,
+          "ytd": -21.9,
+          "1y": -29.31
         }
       },
       "PRIO3.SA": {
         "name": "PRIO        ON      NM",
         "sector": "Energy",
-        "marketCap": 48563380224,
+        "marketCap": 46687887360,
         "currency": "BRL",
         "changes": {
-          "1d": 1.48,
-          "1w": 9.23,
-          "1mo": 16.68,
-          "3mo": -8.37,
-          "ytd": 45.71,
-          "1y": 44.23
+          "1d": null,
+          "1w": 3.05,
+          "1mo": 10.46,
+          "3mo": -16.62,
+          "ytd": 40.09,
+          "1y": 44.52
         }
       },
       "ELET3.SA": {
@@ -3087,15 +3087,15 @@
       "MGLU3.SA": {
         "name": "MAGAZ LUIZA ON      NM",
         "sector": "Cons. Cyclical",
-        "marketCap": 3901562112,
+        "marketCap": 4002397440,
         "currency": "BRL",
         "changes": {
-          "1d": 0.2,
-          "1w": 4.14,
-          "1mo": 7.48,
-          "3mo": -38.88,
-          "ytd": -42.5,
-          "1y": -24.49
+          "1d": null,
+          "1w": 6.83,
+          "1mo": 15.96,
+          "3mo": -35.5,
+          "ytd": -41.01,
+          "1y": -23.83
         }
       }
     },
@@ -3103,10 +3103,10 @@
       "GARAN.IS": {
         "name": "GARANTI BANKASI",
         "sector": "Financials",
-        "marketCap": 518280019968,
+        "marketCap": 537180012544,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3117,10 +3117,10 @@
       "AKBNK.IS": {
         "name": "AKBANK",
         "sector": "Financials",
-        "marketCap": 329679994880,
+        "marketCap": 343200006144,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3131,10 +3131,10 @@
       "THYAO.IS": {
         "name": "TURK HAVA YOLLARI",
         "sector": "Industrials",
-        "marketCap": 430896971776,
+        "marketCap": 435013844992,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3145,10 +3145,10 @@
       "EREGL.IS": {
         "name": "EREGLI DEMIR CELIK",
         "sector": "Materials",
-        "marketCap": 285948608512,
+        "marketCap": 273580359680,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3159,10 +3159,10 @@
       "BIMAS.IS": {
         "name": "BIM MAGAZALAR",
         "sector": "Cons. Defensive",
-        "marketCap": 462750646272,
+        "marketCap": 449410596864,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3173,10 +3173,10 @@
       "SAHOL.IS": {
         "name": "SABANCI HOLDING",
         "sector": "Financials",
-        "marketCap": 174732050432,
+        "marketCap": 178971131904,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3187,10 +3187,10 @@
       "TUPRS.IS": {
         "name": "TUPRAS",
         "sector": "Energy",
-        "marketCap": 568886427648,
+        "marketCap": 559734128640,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3201,10 +3201,10 @@
       "KCHOL.IS": {
         "name": "KOC HOLDING",
         "sector": "Industrials",
-        "marketCap": 499142950912,
+        "marketCap": 498635964416,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3215,10 +3215,10 @@
       "TOASO.IS": {
         "name": "TOFAS OTO. FAB.",
         "sector": "Cons. Cyclical",
-        "marketCap": 136249999360,
+        "marketCap": 135999995904,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3229,10 +3229,10 @@
       "VESTL.IS": {
         "name": "VESTEL",
         "sector": "Cons. Cyclical",
-        "marketCap": 7648402944,
+        "marketCap": 7561185280,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3243,10 +3243,10 @@
       "SISE.IS": {
         "name": "SISE CAM",
         "sector": "Industrials",
-        "marketCap": 124904284160,
+        "marketCap": 126101250048,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3257,10 +3257,10 @@
       "HALKB.IS": {
         "name": "T. HALK BANKASI",
         "sector": "Financials",
-        "marketCap": 268998082560,
+        "marketCap": 267992219648,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3271,10 +3271,10 @@
       "VAKBN.IS": {
         "name": "VAKIFLAR BANKASI",
         "sector": "Financials",
-        "marketCap": 289743208448,
+        "marketCap": 302435598336,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3285,10 +3285,10 @@
       "YKBNK.IS": {
         "name": "YAPI VE KREDI BANK.",
         "sector": "Financials",
-        "marketCap": 276725366784,
+        "marketCap": 287199723520,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3299,10 +3299,10 @@
       "FROTO.IS": {
         "name": "FORD OTOSAN",
         "sector": "Cons. Cyclical",
-        "marketCap": 281078923264,
+        "marketCap": 277394358272,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3313,10 +3313,10 @@
       "OTKAR.IS": {
         "name": "OTOKAR",
         "sector": "Cons. Cyclical",
-        "marketCap": 36600000512,
+        "marketCap": 35220000768,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3327,10 +3327,10 @@
       "PGSUS.IS": {
         "name": "PEGASUS",
         "sector": "Industrials",
-        "marketCap": 76500000768,
+        "marketCap": 78300004352,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3341,10 +3341,10 @@
       "TCELL.IS": {
         "name": "TURKCELL",
         "sector": "Comm. Services",
-        "marketCap": 217535430656,
+        "marketCap": 227438247936,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3355,10 +3355,10 @@
       "ARCLK.IS": {
         "name": "ARCELIK",
         "sector": "Cons. Cyclical",
-        "marketCap": 63811162112,
+        "marketCap": 63253430272,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3369,10 +3369,10 @@
       "TTRAK.IS": {
         "name": "TURK TRAKTOR",
         "sector": "Industrials",
-        "marketCap": 41252573184,
+        "marketCap": 40577118208,
         "currency": "TRY",
         "changes": {
-          "1d": NaN,
+          "1d": null,
           "1w": NaN,
           "1mo": NaN,
           "3mo": NaN,
@@ -3385,15 +3385,15 @@
       "NICE": {
         "name": "NICE Ltd",
         "sector": "Technology",
-        "marketCap": 5788816384,
+        "marketCap": 5882286592,
         "currency": "USD",
         "changes": {
-          "1d": -0.09,
-          "1w": 3.98,
-          "1mo": 4.18,
-          "3mo": -12.5,
-          "ytd": -11.75,
-          "1y": -35.27
+          "1d": 1.88,
+          "1w": -0.75,
+          "1mo": 3.58,
+          "3mo": -18.95,
+          "ytd": -10.09,
+          "1y": -35.41
         }
       },
       "CHECK": {
@@ -3427,99 +3427,99 @@
       "MNDY": {
         "name": "monday.com Ltd.",
         "sector": "Technology",
-        "marketCap": 3684189696,
+        "marketCap": 3759014656,
         "currency": "USD",
         "changes": {
-          "1d": -1.15,
-          "1w": 6.15,
-          "1mo": 14.28,
-          "3mo": 19.81,
-          "ytd": -39.23,
-          "1y": -65.22
+          "1d": 2.03,
+          "1w": 2.1,
+          "1mo": 7.78,
+          "3mo": 15.0,
+          "ytd": -38.0,
+          "1y": -64.4
         }
       },
       "GLBE": {
         "name": "Global-E Online Ltd.",
         "sector": "Cons. Cyclical",
-        "marketCap": 6602798592,
+        "marketCap": 6752289280,
         "currency": "USD",
         "changes": {
-          "1d": -1.4,
-          "1w": 4.1,
-          "1mo": 9.71,
-          "3mo": 24.95,
-          "ytd": 3.83,
-          "1y": 25.11
+          "1d": 2.26,
+          "1w": 3.34,
+          "1mo": 7.75,
+          "3mo": 24.07,
+          "ytd": 6.18,
+          "1y": 24.27
         }
       },
       "WIX": {
         "name": "Wix.com Ltd.",
         "sector": "Technology",
-        "marketCap": 2302978560,
+        "marketCap": 2378726144,
         "currency": "USD",
         "changes": {
-          "1d": -2.91,
-          "1w": -2.33,
-          "1mo": 12.58,
-          "3mo": -31.72,
-          "ytd": -45.5,
-          "1y": -57.33
+          "1d": 3.29,
+          "1w": -2.92,
+          "1mo": 13.2,
+          "3mo": -28.72,
+          "ytd": -43.71,
+          "1y": -56.76
         }
       },
       "TEVA": {
         "name": "Teva Pharmaceutical Industries ",
         "sector": "Healthcare",
-        "marketCap": 40766586880,
+        "marketCap": 40156102656,
         "currency": "USD",
         "changes": {
-          "1d": -1.13,
-          "1w": 12.64,
-          "1mo": 4.69,
-          "3mo": 0.17,
-          "ytd": 13.12,
-          "1y": 127.63
+          "1d": -1.57,
+          "1w": 8.81,
+          "1mo": -2.35,
+          "3mo": -2.52,
+          "ytd": 11.34,
+          "1y": 119.63
         }
       },
       "ICL": {
         "name": "ICL Group Ltd.",
         "sector": "Materials",
-        "marketCap": null,
+        "marketCap": 6556849152,
         "currency": "USD",
         "changes": {
-          "1d": -2.32,
-          "1w": -1.75,
-          "1mo": 0.6,
-          "3mo": -6.22,
-          "ytd": -11.1,
-          "1y": -16.44
+          "1d": 0.4,
+          "1w": -3.05,
+          "1mo": 0.59,
+          "3mo": -7.38,
+          "ytd": -10.75,
+          "1y": -14.16
         }
       },
       "ESLT": {
         "name": "Elbit Systems Ltd.",
         "sector": "Industrials",
-        "marketCap": 37886205952,
+        "marketCap": 38893506560,
         "currency": "USD",
         "changes": {
-          "1d": 2.89,
-          "1w": -0.52,
-          "1mo": 6.4,
-          "3mo": -2.59,
-          "ytd": 36.93,
-          "1y": 74.8
+          "1d": 2.66,
+          "1w": 1.41,
+          "1mo": 2.36,
+          "3mo": -3.1,
+          "ytd": 40.57,
+          "1y": 70.3
         }
       },
       "CEVA": {
         "name": "CEVA, Inc.",
         "sector": "Technology",
-        "marketCap": 909608384,
+        "marketCap": 926881216,
         "currency": "USD",
         "changes": {
-          "1d": -0.73,
-          "1w": -7.17,
-          "1mo": -28.26,
-          "3mo": 1.15,
-          "ytd": 45.63,
-          "1y": 57.73
+          "1d": 1.9,
+          "1w": 4.95,
+          "1mo": -25.47,
+          "3mo": 2.27,
+          "ytd": 48.39,
+          "1y": 53.81
         }
       },
       "SPNS": {
@@ -3539,15 +3539,15 @@
       "KLAR": {
         "name": "Klarna Group plc",
         "sector": "Financials",
-        "marketCap": 7161469440,
+        "marketCap": 7486646272,
         "currency": "USD",
         "changes": {
-          "1d": -0.32,
-          "1w": 2.43,
-          "1mo": -7.34,
-          "3mo": 30.17,
-          "ytd": -33.71,
-          "1y": -55.69
+          "1d": 4.54,
+          "1w": 5.83,
+          "1mo": -0.4,
+          "3mo": 33.06,
+          "ytd": -30.7,
+          "1y": -53.67
         }
       },
       "RADCOM": {
@@ -3567,29 +3567,29 @@
       "GILT": {
         "name": "Gilat Satellite Networks Ltd.",
         "sector": "Technology",
-        "marketCap": 833953920,
+        "marketCap": 883010048,
         "currency": "USD",
         "changes": {
-          "1d": 0.45,
-          "1w": 0.36,
-          "1mo": -16.85,
-          "3mo": -40.21,
-          "ytd": -17.6,
-          "1y": 50.34
+          "1d": 5.88,
+          "1w": 8.74,
+          "1mo": -10.62,
+          "3mo": -36.21,
+          "ytd": -12.75,
+          "1y": 56.84
         }
       },
       "PERI": {
         "name": "Perion Network Ltd",
         "sector": "Comm. Services",
-        "marketCap": 394029536,
+        "marketCap": 401464096,
         "currency": "USD",
         "changes": {
-          "1d": -0.42,
-          "1w": 1.17,
-          "1mo": -0.42,
-          "3mo": -12.32,
-          "ytd": 2.03,
-          "1y": -9.74
+          "1d": 1.89,
+          "1w": 1.14,
+          "1mo": 4.85,
+          "3mo": -9.07,
+          "ytd": 3.96,
+          "1y": -10.58
         }
       }
     },
@@ -3602,80 +3602,80 @@
         "changes": {
           "1d": 0.0,
           "1w": -1.28,
-          "1mo": 8.45,
+          "1mo": 4.05,
           "3mo": 9.22,
           "ytd": 26.28,
-          "1y": 23.93
+          "1y": 28.77
         }
       },
       "ADVANC.BK": {
         "name": "ADVANC_ADVANCED INFO SERVICE",
         "sector": "Comm. Services",
-        "marketCap": 1130199777280,
+        "marketCap": 1112354455552,
         "currency": "THB",
         "changes": {
-          "1d": 0.53,
-          "1w": 1.88,
-          "1mo": 3.54,
-          "3mo": 11.76,
-          "ytd": 27.0,
-          "1y": 43.45
+          "1d": -1.58,
+          "1w": 0.27,
+          "1mo": -0.27,
+          "3mo": 10.0,
+          "ytd": 24.99,
+          "1y": 41.67
         }
       },
       "GULF.BK": {
         "name": "GULF_GULF DEVELOPMENT",
         "sector": "Utilities",
-        "marketCap": 997234180096,
+        "marketCap": 1000969076736,
         "currency": "THB",
         "changes": {
-          "1d": 1.52,
-          "1w": 2.3,
-          "1mo": 8.54,
-          "3mo": 16.09,
-          "ytd": 69.74,
-          "1y": 49.08
+          "1d": 0.37,
+          "1w": 2.68,
+          "1mo": 5.51,
+          "3mo": 16.52,
+          "ytd": 70.38,
+          "1y": 52.88
         }
       },
       "CPALL.BK": {
         "name": "CPALL_CP ALL",
         "sector": "Cons. Defensive",
-        "marketCap": 427732828160,
+        "marketCap": 432188391424,
         "currency": "THB",
         "changes": {
-          "1d": 2.13,
-          "1w": 3.23,
-          "1mo": 2.67,
-          "3mo": 10.34,
-          "ytd": 15.16,
-          "1y": 5.41
+          "1d": 1.04,
+          "1w": 4.3,
+          "1mo": -1.02,
+          "3mo": 11.49,
+          "ytd": 16.36,
+          "1y": 10.0
         }
       },
       "AOT.BK": {
         "name": "AOT_AIRPORTS OF THAILAND",
         "sector": "Industrials",
-        "marketCap": 910713356288,
+        "marketCap": 914284806144,
         "currency": "THB",
         "changes": {
           "1d": 0.39,
-          "1w": -0.39,
-          "1mo": -0.78,
-          "3mo": 24.39,
-          "ytd": 16.97,
-          "1y": 57.86
+          "1w": 0.0,
+          "1mo": -0.39,
+          "3mo": 24.88,
+          "ytd": 17.43,
+          "1y": 63.46
         }
       },
       "SCB.BK": {
         "name": "SCB_SCB X",
         "sector": "Financials",
-        "marketCap": 515167420416,
+        "marketCap": 516850974720,
         "currency": "THB",
         "changes": {
-          "1d": 0.66,
-          "1w": -0.97,
-          "1mo": 3.38,
-          "3mo": 16.79,
-          "ytd": 15.11,
-          "1y": 31.25
+          "1d": 0.33,
+          "1w": -0.65,
+          "1mo": 0.0,
+          "3mo": 17.18,
+          "ytd": 15.49,
+          "1y": 31.68
         }
       },
       "KBANK.BK": {
@@ -3684,12 +3684,12 @@
         "marketCap": 578115928064,
         "currency": "THB",
         "changes": {
-          "1d": 0.83,
+          "1d": 0.0,
           "1w": 0.83,
-          "1mo": 11.93,
+          "1mo": 4.72,
           "3mo": 25.77,
           "ytd": 34.0,
-          "1y": 62.79
+          "1y": 62.29
         }
       },
       "BBL.BK": {
@@ -3698,9 +3698,9 @@
         "marketCap": 365543424000,
         "currency": "THB",
         "changes": {
-          "1d": 0.26,
+          "1d": 0.0,
           "1w": -1.29,
-          "1mo": 6.69,
+          "1mo": -0.52,
           "3mo": 17.85,
           "ytd": 16.92,
           "1y": 37.69
@@ -3723,43 +3723,43 @@
       "TRUE.BK": {
         "name": "TRUE_TRUE CORPORATION",
         "sector": "Comm. Services",
-        "marketCap": 497550196736,
+        "marketCap": 480274153472,
         "currency": "THB",
         "changes": {
-          "1d": -1.37,
-          "1w": 3.6,
-          "1mo": 11.63,
-          "3mo": 7.02,
-          "ytd": 29.75,
-          "1y": 43.32
+          "1d": -3.47,
+          "1w": 0.0,
+          "1mo": 5.3,
+          "3mo": 3.3,
+          "ytd": 25.24,
+          "1y": 33.22
         }
       },
       "BDMS.BK": {
         "name": "BDMS_BANGKOK DUSIT MEDICAL",
         "sector": "Healthcare",
-        "marketCap": 305126440960,
+        "marketCap": 311483236352,
         "currency": "THB",
         "changes": {
-          "1d": 1.05,
-          "1w": 1.05,
-          "1mo": -0.52,
-          "3mo": 4.92,
-          "ytd": 2.44,
-          "1y": -5.99
+          "1d": 2.08,
+          "1w": 3.16,
+          "1mo": -2.49,
+          "3mo": 7.1,
+          "ytd": 4.57,
+          "1y": -2.67
         }
       },
       "BH.BK": {
         "name": "BH_BUMRUNGRAD HOSPITAL",
         "sector": "Healthcare",
-        "marketCap": 149056241664,
+        "marketCap": 149851209728,
         "currency": "THB",
         "changes": {
-          "1d": 0.54,
-          "1w": 2.46,
-          "1mo": -0.27,
-          "3mo": 3.88,
-          "ytd": 24.26,
-          "1y": 17.47
+          "1d": 0.53,
+          "1w": 3.01,
+          "1mo": -2.33,
+          "3mo": 4.43,
+          "ytd": 24.92,
+          "1y": 12.47
         }
       },
       "CPN.BK": {
@@ -3768,110 +3768,110 @@
         "marketCap": 309671985152,
         "currency": "THB",
         "changes": {
-          "1d": 1.85,
+          "1d": 0.0,
           "1w": 1.85,
-          "1mo": 2.99,
+          "1mo": 1.1,
           "3mo": 11.29,
           "ytd": 28.49,
-          "1y": 37.1
+          "1y": 39.78
         }
       },
       "HMPRO.BK": {
         "name": "HMPRO_HOME PRODUCT CENTER",
         "sector": "Cons. Cyclical",
-        "marketCap": 83904217088,
+        "marketCap": 87776722944,
         "currency": "THB",
         "changes": {
-          "1d": 0.78,
-          "1w": -0.76,
-          "1mo": -0.76,
-          "3mo": 7.44,
-          "ytd": 2.02,
-          "1y": -3.87
+          "1d": 4.62,
+          "1w": 3.82,
+          "1mo": 3.82,
+          "3mo": 12.4,
+          "ytd": 6.73,
+          "1y": 2.72
         }
       },
       "IVL.BK": {
         "name": "IVL_INDORAMA VENTURES",
         "sector": "Materials",
-        "marketCap": 124081602560,
+        "marketCap": 122958684160,
         "currency": "THB",
         "changes": {
-          "1d": 1.38,
-          "1w": -8.3,
-          "1mo": 0.45,
-          "3mo": -12.97,
-          "ytd": 38.34,
-          "1y": -1.18
+          "1d": -0.9,
+          "1w": -9.13,
+          "1mo": -5.19,
+          "3mo": -13.75,
+          "ytd": 37.09,
+          "1y": -0.35
         }
       },
       "LH.BK": {
         "name": "LH_LAND AND HOUSES",
         "sector": "Real Estate",
-        "marketCap": 45647904768,
+        "marketCap": 45886898176,
         "currency": "THB",
         "changes": {
-          "1d": 1.06,
-          "1w": 1.06,
-          "1mo": 1.06,
-          "3mo": 6.11,
-          "ytd": 3.3,
-          "1y": 6.56
+          "1d": 0.52,
+          "1w": 1.59,
+          "1mo": 0.52,
+          "3mo": 6.67,
+          "ytd": 3.84,
+          "1y": 7.12
         }
       },
       "MINT.BK": {
         "name": "MINT_MINOR INTERNATIONAL",
         "sector": "Cons. Cyclical",
-        "marketCap": 132739956736,
+        "marketCap": 133302419456,
         "currency": "THB",
         "changes": {
-          "1d": 2.16,
-          "1w": 2.61,
-          "1mo": -4.45,
-          "3mo": 16.26,
-          "ytd": -1.78,
-          "1y": -2.49
+          "1d": 0.42,
+          "1w": 3.04,
+          "1mo": -4.05,
+          "3mo": 16.75,
+          "ytd": -1.36,
+          "1y": 2.86
         }
       },
       "PSH.BK": {
         "name": "PSH_PRUKSA HOLDING",
         "sector": "Real Estate",
-        "marketCap": 8580879872,
+        "marketCap": 8712219648,
         "currency": "THB",
         "changes": {
-          "1d": 0.0,
-          "1w": 0.0,
-          "1mo": 16.67,
-          "3mo": 13.95,
-          "ytd": 8.65,
-          "1y": -9.44
+          "1d": 1.53,
+          "1w": 1.53,
+          "1mo": 13.71,
+          "3mo": 15.7,
+          "ytd": 10.31,
+          "1y": -5.07
         }
       },
       "SCC.BK": {
         "name": "SCC_THE SIAM CEMENT",
         "sector": "Industrials",
-        "marketCap": 304800006144,
+        "marketCap": 307200000000,
         "currency": "THB",
         "changes": {
-          "1d": -0.39,
-          "1w": 0.0,
-          "1mo": 4.1,
-          "3mo": 5.83,
-          "ytd": 35.32,
-          "1y": 29.51
+          "1d": 0.79,
+          "1w": 0.79,
+          "1mo": 4.92,
+          "3mo": 6.67,
+          "ytd": 36.38,
+          "1y": 29.24
         }
       },
       "TOP.BK": {
         "name": "TOP_THAI OIL",
         "sector": "Energy",
-        "marketCap": 146316230656,
+        "marketCap": 146874679296,
         "currency": "THB",
         "changes": {
-          "1d": 2.75,
-          "1w": 2.34,
-          "1mo": 35.05,
-          "3mo": 36.46,
-          "ytd": 79.08,
-          "1y": 98.05
+          "1d": 0.38,
+          "1w": 2.73,
+          "1mo": 30.85,
+          "3mo": 36.98,
+          "ytd": 79.76,
+          "1y": 107.84
         }
       }
     }
